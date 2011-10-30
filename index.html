@@ -2,14 +2,34 @@
 layout: default
 title: home
 ---
+
+<!-- load js for nivo slider and activate it on load -->
+<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+
+  var total = $('#slider img').length;
+  var rand = Math.floor(Math.random()*total);
+
+  $('#slider').nivoSlider({
+    effect: 'fade',
+    startSlide: rand,
+    animSpeed:500, // Slide transition speed
+    pauseTime:4000, // How long each slide will show
+    directionNav:false, // Next & Prev navigation
+    directionNavHide:true, // Only show on hover
+    controlNav:false, // 1,2,3... navigation
+    keyboardNav:true, // Use left & right arrows
+    pauseOnHover:true // Stop animation while hovering
+  });
+});
+</script>
+
 <div id="frontpage">
-  <div class="center_full_no_border">
-    <div class="ribbon"></div>
-    <div id="slider" class="img_shadow">
-      <img src="images/frontpage/climbers.jpg" alt="climbers below Aiguille du Chardonnet" />
-      <img src="images/frontpage/chamonix.jpg" alt="Chamonix valley and Mont Blanc" />
-      <img src="images/frontpage/to_albert_premier.jpg" alt="On the path to the Albert Premier Hut" />
-    </div>
+  <div id="slider" class="nivoSlider img_shadow" >
+    <img src="images/frontpage/climbers.jpg" alt="climbers below Aiguille du Chardonnet" />
+    <img src="images/frontpage/chamonix.jpg" alt="Chamonix valley and Mont Blanc" />
+    <img src="images/frontpage/to_albert_premier.jpg" alt="On the path to the Albert Premier Hut" />
   </div>
 
   <p>I'm Robbie Shade, a graduate student in the Mobile Robotics Group at Oxford University. 
@@ -26,8 +46,7 @@ title: home
   </a>,
   and maxmising the
   <a href="http://www.highimpactcareers.org/">
-    good I can do through my career
-  </a>.
+    good I can do through my career</a>.
   
   <br/>
 
@@ -41,31 +60,8 @@ title: home
   </a>,
   and
   <a href="http://www.rjshade.com/2011/07/24/Chamonix/">
-    climb up steep things
-  </a>.
+    climb up steep things</a>.
   </p>
 </div>
-
-<!-- load js for nivo slider and activate it on load -->
-<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
-<script type="text/javascript">
-$(window).load(function() {
-
-  var total = $('#slider img').length;
-  var rand = Math.floor(Math.random()*total);
-
-  $('#slider').nivoSlider({
-    effect: 'fade',
-    startSlide: rand,
-    animSpeed:500, // Slide transition speed
-    pauseTime:6000, // How long each slide will show
-    directionNav:false, // Next & Prev navigation
-    directionNavHide:true, // Only show on hover
-    controlNav:false, // 1,2,3... navigation
-    keyboardNav:true, // Use left & right arrows
-    pauseOnHover:true // Stop animation while hovering
-  });
-});
-</script>
 
 

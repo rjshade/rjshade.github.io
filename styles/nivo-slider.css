@@ -4,6 +4,7 @@
  *
  * Copyright 2011, Gilbert Pellegrom
  * Free to use and abuse under the MIT license.
+
  * http://www.opensource.org/licenses/mit-license.php
  * 
  * March 2010
@@ -13,11 +14,15 @@
 /*[> The Nivo Slider styles <]*/
 .nivoSlider {
     position:relative;
+    width:800px; /* Change this to your images width */
+    height:500px; /* Change this to your images height */
+    background:url(/images/loading.gif) no-repeat 50% 50%;
 }
 .nivoSlider img {
     position:absolute;
     top:0px;
     left:0px;
+    display:none;
 }
 /*[> If an image is wrapped in a link <]*/
 .nivoSlider a.nivo-imageLink {
@@ -31,16 +36,4 @@
     margin:0;
     z-index:6;
     display:none;
-}
-/*[> The slices and boxes in the Slider <]*/
-.nivo-slice {
-    display:block;
-    position:absolute;
-    z-index:5;
-    height:100%;
-}
-.nivo-box {
-    display:block;
-    position:absolute;
-    z-index:5;
 }
