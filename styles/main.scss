@@ -506,6 +506,8 @@ ul.menu li
 .post code {
   border: none;
   padding: 0 .2em;
+  color: #999;
+  font-style: italic;
 }
 
 .highlight {
@@ -666,4 +668,9 @@ ul.posts span {
   border: none;
 }
 
+.post {
+  ul {
+    list-style: disc;
+  }
+}
 
