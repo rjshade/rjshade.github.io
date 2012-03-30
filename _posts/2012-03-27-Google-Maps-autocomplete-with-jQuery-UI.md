@@ -21,16 +21,22 @@ It's pretty simple. First you need some javascript:
 
 {% highlight html %}
   <!-- google maps -->
-  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script type="text/javascript"
+          src="http://maps.google.com/maps/api/js?sensor=false">
+  </script>
 
   <!-- jquery -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript"
+          src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
+  </script>
 
   <!-- jquery UI -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+  <script type="text/javascript"
+          src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js">
+  </script>
 
   <!-- our javascript -->
-  <script src="js/gmaps.js"></script>
+  <script type="text/javascript" src="js/gmaps.js"></script>
 {% endhighlight %}
 
 And you need some HTML containers:
@@ -163,11 +169,13 @@ The key function is `geocode_lookup( type, value, update )` which talks to the g
   
         if( type == 'address' ) {
           // User has typed in an address which we can't geocode to a location
-          $('#gmaps-error').html("Sorry! We couldn't find " + value + ". Try a different search term, or click the map." );
+          $('#gmaps-error').html("Sorry! We couldn't find " + value + \
+                                 ". Try a different search term, or click the map." );
         } else {
-          // User has clicked or dragged marker to somewhere that Google can't do a reverse lookup for
-          // In this case we display a warning, clear the address box, but fill in LatLng
-          $('#gmaps-error').html("Woah... that's pretty remote! You're going to have to manually enter a place name." );
+          // User has clicked or dragged marker to somewhere that Google can't do a
+          // reverse lookup for. In this case we display a warning.
+          $('#gmaps-error').html("Woah... that's pretty remote!\ 
+                                 You're going to have to manually enter a place name." );
           update_ui('', value)
         }
       };
@@ -190,7 +198,7 @@ The key function is `geocode_lookup( type, value, update )` which talks to the g
             return {
               label: item.formatted_address, // appears in dropdown box
               value: item.formatted_address, // inserted into input element when selected
-              geocode: item                  // all geocode data: used in select callback event
+              geocode: item                  // all geocode data
             }
           }));
         })
