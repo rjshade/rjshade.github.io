@@ -44,12 +44,14 @@ And you need some HTML containers:
 {% highlight html %}
   <body>
    <div id='input'>
-      <input id='address' placeholder='Start typing a place name...' type='text' />
+      <input id='gmaps-input-address' 
+             placeholder='Start typing a place name...'
+             type='text' />
       <br/>
       <br/>
-      Latitude: <span id='latitude'></span>
+      Latitude: <span id='gmaps-output-latitude'></span>
       <br/>
-      Longitude: <span id='longitude'></span>
+      Longitude: <span id='gmaps-output-longitude'></span>
       <br/>
 
       <div id='gmaps-error'></div>
@@ -126,10 +128,10 @@ The key function is `geocode_lookup( type, value, update )` which talks to the g
   
   // fill in the UI elements with new position data
   function update_ui( address, latLng ) {
-    $('#address').autocomplete("close");
-    $('#address').val(address);
-    $('#latitude').html(latLng.lat());
-    $('#longitude').html(latLng.lng());
+    $('#gmaps-input-address').autocomplete("close");
+    $('#gmaps-input-address').val(address);
+    $('#gmaps-output-latitude').html(latLng.lat());
+    $('#gmaps-output-longitude').html(latLng.lng());
   }
   
   // Query the Google geocode object
@@ -184,7 +186,7 @@ The key function is `geocode_lookup( type, value, update )` which talks to the g
   
   // initialise the jqueryUI autocomplete element
   function autocomplete_init() {
-    $("#address").autocomplete({
+    $("#gmaps-input-address").autocomplete({
   
       // source is the list of input options shown in the autocomplete dropdown.
       // see documentation: http://jqueryui.com/demos/autocomplete/
@@ -212,15 +214,15 @@ The key function is `geocode_lookup( type, value, update )` which talks to the g
     });
   
     // triggered when user presses a key in the address box
-    $("#address").bind('keydown', function(event) {
+    $("#gmaps-input-address").bind('keydown', function(event) {
       if(event.keyCode == 13) {
-        geocode_lookup( 'address', $('#address').val(), true );
+        geocode_lookup( 'address', $('#gmaps-input-address').val(), true );
   
         // ensures dropdown disappears when enter is pressed
-        $('#address').autocomplete("disable")
+        $('#gmaps-input-address').autocomplete("disable")
       } else {
         // re-enable if previously disabled above
-        $('#address').autocomplete("enable")
+        $('#gmaps-input-address').autocomplete("enable")
       }
     });
   }; // autocomplete_init
