@@ -4,7 +4,9 @@ title: Google Maps autocomplete with jQuery UI
 ---
 
 <div class="img_shadow">
+<a href="http://rjshade.github.com/gmaps-autocomplete/">
 <img class="page_width" src="/content/files/blog/2012/03/30/gmaps_autocomplete.png" />
+</a>
 </div>
 
 # Adding address search to Google Maps

@@ -9,6 +9,6 @@ task :clear do
 end
 
 task :deploy do
-  sh 'rsync -auh --size-only --progress --stats ./_site/ rjshade.com:/home/public/'
+  sh 'rsync -auh --size-only --progress --stats --delete ./_site/ rjshade.com:/home/public/'
 end
 
