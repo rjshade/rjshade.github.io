@@ -6,8 +6,8 @@ title: Thames Trot 50-mile Ultra
 Oxford To Henley-on-Thames, following the Thames path. 50 miles. What better way to spend a Saturday morning, afternoon, and evening running the entire length?
 
 <div class="img_shadow">
-<a href="/content/files/blog/2010/02/10/full/thames_trot.jpg">
-<img class="page_width" src="/content/files/blog/2010/02/10/thames_trot.jpg" />
+<a href="/blog/files/2010/02/10/full/thames_trot.jpg">
+<img class="page_width" src="/blog/files/2010/02/10/thames_trot.jpg" />
 </a>
 </div>
 

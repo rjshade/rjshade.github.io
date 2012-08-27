@@ -4,8 +4,8 @@ title: Running to Didcot
 ---
 
 <div class="img_shadow">
-<a class="no_border" href="/content/files/blog/2011/03/12/full/didcot.jpg">
-<img class="page_width" src="/content/files/blog/2011/03/12/didcot.jpg" />
+<a class="no_border" href="/blog/files/2011/03/12/full/didcot.jpg">
+<img class="page_width" src="/blog/files/2011/03/12/didcot.jpg" />
 </a>
 </div>
 

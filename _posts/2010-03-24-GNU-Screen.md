@@ -4,8 +4,8 @@ title: GNU screen
 ---
 
 <div class="img_shadow">
-<a href="/content/files/blog/2010/03/24/full/gnu_screen.png">
-<img class="page_width" src="/content/files/blog/2010/03/24/gnu_screen.png" />
+<a href="/blog/files/2010/03/24/full/gnu_screen.png">
+<img class="page_width" src="/blog/files/2010/03/24/gnu_screen.png" />
 </a>
 </div>
 

@@ -6,7 +6,7 @@ Ever wanted to know when you'll be <a href="http://www.onegigasecond.com/">one g
 
 <div class="img_shadow">
 <a class="no_border" href="http://www.onegigasecond.com/">
-<img class="page_width" src="/content/files/blog/2011/08/08/onegigasecond.png" alt="www.onegigasecond.com"/>
+<img class="page_width" src="/blog/files/2011/08/08/onegigasecond.png" alt="www.onegigasecond.com"/>
 </a>
 </div>
 
