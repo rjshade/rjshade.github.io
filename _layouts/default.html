@@ -1,6 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
+  <head>
     <title>rjshade.com :: {{ page.title }} </title>
     
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
@@ -11,67 +11,65 @@
     <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/syntax.css" />
     <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/nivo-slider.css" />
+    <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/jquery-ui/jquery-ui-1.8.16.custom.css" />
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <script src="/js/flickr.js"></script>
 
-    <link rel="stylesheet" href="/styles/nivo-themes/default/default.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="/styles/nivo-slider.css" type="text/css" media="screen" />
+    <!-- jquery -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 
-    <!-- for facebook open graph -->
+    <!-- jquery UI -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+    
+    <!-- facebook open graph -->
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="http://rjshade.com/images/opengraph.png"/>
     <meta property="og:title" content="rjshade.com"/>
-    <meta property="og:url" content="http://www.rjshade.com/"/>
+    <meta property="og:url" content="http://rjshade.com/"/>
     <meta property="fb:admins" content="36804805"/>
     <meta property="og:description" content="Robbie Shade's personal website."/>
-</head>
 
-<body>
+    <!-- google analytics -->
+    <script type="text/javascript">
 
-<div id="wrapper">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-13183825-1']);
+      _gaq.push(['_trackPageview']);
 
-<div id="header">
-    <div id="title">
-        <div id="title_main">
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="header">
+        <div id="title">
+          <div id="title_main">
             <a href="/">rjshade.com</a>
+          </div>
         </div>
-    </div>
 
-    <div id="menu"> 
-        <ul class="menu">
-            <li class="unselected"><a href="/"      >home</a></li> 
-            <li class="unselected"><a href="/photos">photos</a></li>
-            <li class="unselected"><a href="/blog"  >blog</a></li>
-            <li class="unselected"><a href="/work"  >work</a></li>
-            <!--<li class="unselected"><a href="/code"  >code</a></li>-->
-            <li class="unselected"><a href="/about" >about</a></li>
-        </ul>
-    </div> <!-- menu -->
-</div> <!-- header -->
+        <div id="menu">
+          <ul class="menu">
+            <li><a href="/"        >home</a></li>
+            <li><a href="/blog"    >blog</a></li>
+            <li><a href="/work"    >work</a></li>
+            <li><a href="/projects">projects</a></li>
+            <li><a href="/photos"  >photos</a></li>
+            <li><a href="/about"   >about</a></li>
+          </ul>
+        </div> <!-- menu -->
+      </div> <!-- header -->
 
-<div class="horz_pagewidth_rule"></div>
+      <div class="horz_pagewidth_rule"></div>
 
-<div id="content">
-{{ content }}
-</div> <!-- content -->
-
-</div> <!-- wrapper -->
-
-<!-- google analytics -->
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-13183825-1']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-</body>
+      <div id="content">
+        {{ content }}
+      </div> <!-- content -->
+    </div> <!-- wrapper -->
+  </body>
 </html>
-
