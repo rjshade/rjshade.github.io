@@ -368,7 +368,8 @@ ul.posts span {
 .gmaps .download {
   float: right; }
 .gmaps #gmaps-canvas {
-  height: 400px; }
+  height: 400px;
+  width: 100%; }
 .gmaps #results {
   color: #555;
   padding-top: 10px; }
