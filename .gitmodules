@@ -1,15 +1,12 @@
 [submodule "projects/gmaps-autocomplete/src"]
-	path = projects/gmaps-autocomplete/src
+  path = projects/gmaps-autocomplete/src
   url = git://github.com/rjshade/gmaps-autocomplete.git
 [submodule "projects/road-radius/src"]
-	path = projects/road-radius/src
+  path = projects/road-radius/src
   url = git://github.com/rjshade/road-radius.git
-[submodule "projects/onegigasecond"]
-	path = projects/onegigasecond/src
-	url = git://github.com/rjshade/onegigasecond.git
 [submodule "projects/onegigasecond/src"]
-	path = projects/onegigasecond/src
-	url = git://github.com/rjshade/onegigasecond.git
+  path = projects/onegigasecond/src
+  url = git://github.com/rjshade/onegigasecond.git
 [submodule "projects/cellular-automata/src"]
-	path = projects/cellular-automata/src
-	url = git://github.com/rjshade/cellular-automata
+  path = projects/cellular-automata/src
+  url = git://github.com/rjshade/cellular-automata
