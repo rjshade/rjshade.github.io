@@ -6,12 +6,20 @@ title: cellular automata
 <script type="text/javascript" src="./src/js/gameboard.js"></script>
 <script type="text/javascript" src="./src/js/langton.js"></script>
 <script type="text/javascript" src="./src/js/conway.js"></script>
+<script type="text/javascript" src="./src/js/wolfram.js"></script>
 
 <a href="https://github.com/rjshade/cellular-automata"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+
+<h1>Cellular automata</h1>
+<p>A demonstration of various cellular automata. An exercise in learning Coffeescript.</p>
+<p>In order: Conway's Game of Life, Langton's Ant, and Wolfram's 1D cellular automaton (rule 30).</p>
 
 <div class='cellular-automata'>
   <div id="debug"></div>
   <script type="text/javascript">
-    var gameboard = new Conway();
+    var dims = { rows: 30, cols: 30, size: 5 }
+    new Conway(dims);
+    new Langton(dims);
+    new Wolfram(dims);
   </script>
 </div>
