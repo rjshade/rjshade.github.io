@@ -1,6 +1,6 @@
 [submodule "projects/gmaps-autocomplete/src"]
 	path = projects/gmaps-autocomplete/src
-	url = git@github.com:rjshade/gmaps-autocomplete.git
+  url = git://github.com/rjshade/gmaps-autocomplete.git
 [submodule "projects/road-radius/src"]
 	path = projects/road-radius/src
-	url = git@github.com:rjshade/road-radius.git
+  url = git://github.com/rjshade/road-radius.git
