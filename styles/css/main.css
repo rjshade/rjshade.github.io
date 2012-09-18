@@ -372,12 +372,24 @@ ul.posts span {
 .projects {
   width: 100%; }
   .projects .project {
+    border: 1px solid #ccc;
+    margin: 10px;
     float: left;
     display: block;
-    width: 250px;
+    width: 230px;
     padding: 5px; }
     .projects .project a img {
-      width: 250px; }
+      width: 230px;
+      height: 230px;
+      filter: url(/projects/images/filters.svg#grayscale);
+      /* Firefox 3.5+ */
+      filter: gray;
+      /* IE6-9 */
+      -webkit-filter: grayscale(1);
+      /* Google Chrome & Safari 6+ */ }
+      .projects .project a img:hover {
+        filter: none;
+        -webkit-filter: grayscale(0); }
 
 .onegigasecond {
   /* add to google calendar buttons */ }
