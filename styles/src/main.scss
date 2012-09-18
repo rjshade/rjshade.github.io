@@ -486,6 +486,28 @@ ul.posts span {
 }
 
 
-#gmaps-canvas {
-  height: 400px;
+.gmaps {
+  #gmaps-canvas {
+    height: 400px;
+  }
+  
+  input {
+    width: 500px;
+  }
+  
+  #results {
+    color: #555;
+    padding-top: 10px;
+  }
+  
+  #input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ccc;
+  }
+  #gmaps-output-latitude, #input #gmaps-output-longitude {
+    color: green;
+  }
+  
+  .download { float: right; }
 }
