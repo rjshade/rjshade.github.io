@@ -1,3 +1,0 @@
-[submodule "projects/gmaps-autocomplete"]
-	path = projects/gmaps-autocomplete
-	url = git@github.com:rjshade/gmaps-autocomplete.git
