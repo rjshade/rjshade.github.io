@@ -369,6 +369,16 @@ ul.posts span {
 #dsq-new-post h3 {
   padding: 0.2em; }
 
+.projects {
+  width: 100%; }
+  .projects .project {
+    float: left;
+    display: block;
+    width: 250px;
+    padding: 5px; }
+    .projects .project a img {
+      width: 250px; }
+
 .onegigasecond {
   /* add to google calendar buttons */ }
   .onegigasecond #output_container {
