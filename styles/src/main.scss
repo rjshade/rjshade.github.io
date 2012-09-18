@@ -485,14 +485,11 @@ ul.posts span {
 
 }
 
-
 .gmaps {
+  .download { float: right; }
+
   #gmaps-canvas {
     height: 400px;
-  }
-  
-  input {
-    width: 500px;
   }
   
   #results {
@@ -500,14 +497,15 @@ ul.posts span {
     padding-top: 10px;
   }
   
-  #input {
+  .input {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #ccc;
+    input {
+      width: 500px;
+    }
+    #gmaps-output-latitude, #input #gmaps-output-longitude {
+      color: green;
+    }
   }
-  #gmaps-output-latitude, #input #gmaps-output-longitude {
-    color: green;
-  }
-  
-  .download { float: right; }
 }
