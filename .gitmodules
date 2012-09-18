@@ -10,3 +10,6 @@
 [submodule "projects/onegigasecond/src"]
 	path = projects/onegigasecond/src
 	url = git://github.com/rjshade/onegigasecond.git
+[submodule "projects/cellular-automata/src"]
+	path = projects/cellular-automata/src
+	url = git://github.com/rjshade/cellular-automata

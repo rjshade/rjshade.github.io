@@ -434,3 +434,8 @@ ul.posts span {
     width: 500px; }
   .gmaps .input-gmaps-autocomplete #gmaps-output-latitude, .gmaps .input-gmaps-autocomplete #input #gmaps-output-longitude {
     color: green; }
+
+.cellular-automata canvas {
+  border: 1px solid #646464;
+  margin: 50px auto 0 auto;
+  display: block; }
