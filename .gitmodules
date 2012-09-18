@@ -4,3 +4,9 @@
 [submodule "projects/road-radius/src"]
 	path = projects/road-radius/src
   url = git://github.com/rjshade/road-radius.git
+[submodule "projects/onegigasecond"]
+	path = projects/onegigasecond/src
+	url = git://github.com/rjshade/onegigasecond.git
+[submodule "projects/onegigasecond/src"]
+	path = projects/onegigasecond/src
+	url = git://github.com/rjshade/onegigasecond.git
