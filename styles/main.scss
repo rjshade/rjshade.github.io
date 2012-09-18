@@ -77,6 +77,10 @@ a {
   &:hover { color: $orange; }
 }
 
+p {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 #wrapper {
   width: 800px;

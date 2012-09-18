@@ -63,6 +63,10 @@ a {
   a:hover {
     color: #f08c26; }
 
+p {
+  padding-top: 5px;
+  padding-bottom: 5px; }
+
 #wrapper {
   width: 800px;
   margin: 0px auto;
