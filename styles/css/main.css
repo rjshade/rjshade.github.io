@@ -365,6 +365,36 @@ ul.posts span {
 #dsq-new-post h3 {
   padding: 0.2em; }
 
+.onegigasecond {
+  /* add to google calendar buttons */ }
+  .onegigasecond #output_container {
+    /* gets toggled to visible by javascript */
+    display: none; }
+  .onegigasecond #date_input {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; }
+  .onegigasecond img.gcal {
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 10px; }
+  .onegigasecond #output_age {
+    padding: 5px; }
+  .onegigasecond .emph {
+    font-weight: bold;
+    font-size: 1.1em; }
+  .onegigasecond #output_days {
+    padding: 5px; }
+  .onegigasecond #output_days_val {
+    font-weight: bold;
+    font-size: 1.1em; }
+  .onegigasecond #output_secs {
+    padding: 5px; }
+  .onegigasecond #output_secs_val {
+    font-weight: bold;
+    font-size: 1.1em; }
+
 .gmaps .download {
   float: right; }
 .gmaps #gmaps-canvas {

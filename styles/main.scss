@@ -485,6 +485,54 @@ ul.posts span {
 
 }
 
+.onegigasecond {
+  #output_container {
+    /* gets toggled to visible by javascript */
+    display: none;
+  }
+  
+  #date_input {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+  }
+
+  /* add to google calendar buttons */
+  img.gcal {
+    vertical-align: middle;
+    height: 20px;
+    padding-left: 10px;
+  }
+  
+  #output_age {
+    padding:5px;
+  }
+  
+  .emph {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  #output_days {
+    padding:5px;
+  }
+  
+  #output_days_val {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  #output_secs {
+    padding:5px;
+  }
+  
+  #output_secs_val {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+}
+
 .gmaps {
   .download { float: right; }
 
