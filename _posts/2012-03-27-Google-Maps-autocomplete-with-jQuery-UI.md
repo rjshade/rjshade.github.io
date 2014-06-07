@@ -13,7 +13,7 @@ title: Google Maps autocomplete with jQuery UI
 
 Do you want to add an auto-completing Google Maps search box to your site? Do you want to be able to do reverse geocoding (user clicks map, find closest address)? So did I.
 
-**Demo here**: [rjshade.github.com/gmaps-autocomplete](http://rjshade.github.com/gmaps-autocomplete/)
+**Demo here**: [rjshade.com/projects/gmaps-autocomplete](http://rjshade.com/projects/gmaps-autocomplete/)
 
 **Source here**: [github.com/rjshade/gmaps-autocomplete](https://github.com/rjshade/gmaps-autocomplete/)
 
