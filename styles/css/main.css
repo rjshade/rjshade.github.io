@@ -318,11 +318,11 @@ strong {
     float: left;
     padding-bottom: 0.5em; }
   .post .title a {
-    border: none!important; }
+    border: none !important; }
   .post .title a:hover {
     border-bottom: 1px dashed #f08c26 !important; }
   .post .date a {
-    border: none!important; }
+    border: none !important; }
   .post .date a:hover {
     border-bottom: 1px dashed #f08c26 !important; }
   .post .date {
