@@ -265,7 +265,8 @@ strong {
   .photo-grid {
     padding: 0;
     text-align: center;
-    margin: 20px auto;
+    margin: 10px auto;
+    margin-bottom: 10px;
     position: relative;
 
     .photo-grid-item {
@@ -282,8 +283,8 @@ strong {
   }
 
   .slideshow {
-    margin: 20px auto;
-    margin-bottom: 30px;
+    margin: 0px auto;
+    margin-bottom: 20px;
     position: relative;
     width: 800px;
     height: 500px;
