@@ -448,20 +448,6 @@ strong {
   }
 }
 
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-  margin-top: 1em;
-  margin-left: 1em;
-}
-
-ul.posts li {
-  line-height: 1.75em;
-}
-
-ul.posts span {
-  color: #aaaaaa;
-}
 
 .projects {
   width: 100%;
@@ -600,3 +586,13 @@ ul.posts span {
   }
 }
 
+.about {
+  ul {
+    margin-top: 0.5em;
+    margin-left: 1em;
+  }
+  
+  ul li {
+    line-height: 2em;
+  }
+}
