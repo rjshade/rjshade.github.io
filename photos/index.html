@@ -3,15 +3,34 @@ layout: default
 title: photos
 ---
 
-<div class="post">
-    <p>Images link to full photosets on <a href="http://www.flickr.com/photos/rjshade">flickr.com/photos/rjshade</a>
-    </p>
-</div>
-
-<div id="image_block">
-</div>
-
 <script type="text/javascript">
-FlickrLargePhotoSet("#image_block");
+$(window).load(function() {
+  // 3 images at top, 9 below.
+  var images = getRandomImages(12);
+
+  var grid_top_html = ""
+  for (var i = 0; i < 3; ++i) {
+    var image = images[i]
+    grid_top_html += "<li class='photo-grid-item'><a href='" + image[2] + "'>" + getImageHTML(image, '240px', '150px') + "</a></li>"
+  }
+  $('#photo-grid-top').append(grid_top_html)
+
+  var grid_bottom_html = ""
+  for (var i = 3; i < 12; ++i) {
+    var image = images[i]
+    grid_bottom_html += "<li class='photo-grid-item'><a href='" + image[2] + "'>" + getImageHTML(image, '240px', '150px') + "</a></li>"
+  }
+  $('#photo-grid-bottom').append(grid_bottom_html)
+});
 </script>
 
+<ul class="photo-grid" id="photo-grid-top"></ul>
+
+<div class="post">
+  <p>I post photos to <a href="https://plus.google.com/+RobbieShade">Google+</a>
+     and <a href="https://www.flickr.com/photos/rjshade">Flickr</a>.</p>
+
+  <p>Some of my photos are shown on the <a href="https://plus.google.com/+RobbieShade/posts/FMybtzS9SXi">Chromecast idle screen</a>.</p>
+</div>
+
+<ul class="photo-grid" id="photo-grid-bottom"></ul>

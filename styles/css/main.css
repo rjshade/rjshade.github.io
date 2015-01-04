@@ -201,39 +201,31 @@ strong {
     border: none;
     margin-left: auto;
     margin-right: auto; }
-  #content .flickr_photoset_thumb {
-    margin: 9px;
-    -moz-box-shadow: 0px 0px 5px #333333;
-    -webkit-box-shadow: 0px 0px 5px #333333;
-    box-shadow: 0px 0px 5px #333333;
-    vertical-align: middle; }
-  #content .flickr_photoset_third_width {
-    width: 30%;
-    height: 260px;
+  #content .photo-grid {
+    padding: 0;
     text-align: center;
-    margin: 10px;
-    float: left; }
-  #content #photoset_grid {
-    margin: auto;
-    overflow: auto;
-    width: 100%;
-    text-align: center;
-    padding-left: 10px; }
-    #content #photoset_grid .item {
-      float: left;
-      padding: 5px;
-      width: 250px;
-      padding-bottom: 20px; }
-    #content #photoset_grid .break {
-      float: none;
-      clear: both;
-      width: 100%; }
-    #content #photoset_grid .item img {
-      border: 1px solid #333333;
-      margin: 10px;
-      -moz-box-shadow: 0px 0px 5px #555;
-      -webkit-box-shadow: 0px 0px 5px #555;
-      box-shadow: 0px 0px 5px #555; }
+    margin: 20px auto;
+    position: relative; }
+    #content .photo-grid .photo-grid-item {
+      display: inline-block; }
+      #content .photo-grid .photo-grid-item img {
+        width: 230px;
+        height: 150px;
+        margin: 18px;
+        -moz-box-shadow: 0px 0px 5px #111;
+        -webkit-box-shadow: 0px 0px 5px #111;
+        box-shadow: 0px 0px 5px #111; }
+  #content .slideshow {
+    margin: 20px auto;
+    margin-bottom: 30px;
+    position: relative;
+    width: 800px;
+    height: 500px;
+    -moz-box-shadow: 0px 0px 5px #111;
+    -webkit-box-shadow: 0px 0px 5px #111;
+    box-shadow: 0px 0px 5px #111; }
+  #content .slideshow > div {
+    position: absolute; }
 
 /* ------------- PAGE SPECIFIC STYLES ------------- */
 /* ----------------- WORK ------------------------ */

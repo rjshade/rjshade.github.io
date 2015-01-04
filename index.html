@@ -2,69 +2,40 @@
 layout: default
 title: home
 ---
-
-<!-- load js for nivo slider and activate it on load -->
-<script type="text/javascript" src="/js/jquery.nivo.slider.pack.js"></script>
+  
 <script type="text/javascript">
 $(window).load(function() {
+  //  Initialize with a random subset of images. Don't want to load all.
+  var image_html = ""
+  var num_images = 5
+  var images = getRandomImages(num_images);
+  for (var i = 0; i < images.length; ++i) {
+    image_html += "<div><a href='/photos'>" + getImageHTML(images[i]) + "</a></div>"
+  }
 
-  var total = $('#slider img').length;
-  var rand = Math.floor(Math.random()*total);
+  $('#fp-slideshow').append(image_html)
+  $("#fp-slideshow > div:gt(0)").hide();
 
-  $('#slider').nivoSlider({
-    effect: 'fade',
-    startSlide: rand,
-    animSpeed:500, // Slide transition speed
-    pauseTime:5000, // How long each slide will show
-    directionNav:false, // Next & Prev navigation
-    directionNavHide:true, // Only show on hover
-    controlNav:false, // 1,2,3... navigation
-    keyboardNav:true, // Use left & right arrows
-    pauseOnHover:true // Stop animation while hovering
-  });
+  setInterval(function() { 
+    $('#fp-slideshow > div:first')
+      .fadeOut(1500)
+      .next()
+      .fadeIn(1500)
+      .end()
+      .appendTo('#fp-slideshow');
+  },  5000);
 });
 </script>
 
 <div id="frontpage">
-  <div id="slider" class="nivoSlider img_shadow" >
-    <img src="images/frontpage/aiguilles_rouge.jpg" alt="Morning in the Aiguilles Rouges" width="800px" height="500px" />
-    <img src="images/frontpage/bike_snow.jpg" alt="Col du Galibier" width="800px" height="500px" />
-    <img src="images/frontpage/bourg.jpg" "Road to Bourg d'Oisans" width="800px" height="500px" />
-    <img src="images/frontpage/sgurr_alasdair.jpg" "Sgurr Alasdair, Cuillin ridge, Skye" width="800px" height="500px" />
+  <div id="fp-slideshow" class="slideshow">
+    <div>
+      <!-- In case JS disabled, still display one image. -->
+      <a href="/photos"><img src ='images/frontpage/monument_valley.jpg' width='800px' height='500px' /></a>
+    </div>
   </div>
 
   <p>I'm Robbie Shade, and I <a href="/work">work at Google</a>.</p>
 
-  <p>
-  I'm interested in 
-  <a href="http://rjshade.com/2012/04/10/Philanthropy/">
-    optimal philanthrophy
-  </a>, 
-  <a href="http://www.singinst.org/">
-    existential risk reduction
-  </a>,
-  the
-  <a href="http://www.sens.org/">
-    fight to cure ageing 
-  </a>,
-  and maxmising the
-  <a href="http://80000hours.org/">
-    good I can do through my career</a>.
-  </p>
-  
-  <p>
-  I take 
-  <a href="/photos">
-    photos
-  </a>,
-  run
-  <a href="http://rjshade.com/2011/05/26/Running-for-a-reason-Giving-What-We-Can/">
-    stupidly long distances
-  </a>,
-  and
-  <a href="http://rjshade.com/2011/07/24/Chamonix/">
-    climb up steep things</a>.
-  </p>
+  <p>I'm interested in <a href="http://rjshade.com/2012/04/10/Philanthropy/">effective altruism</a>, and maximising the <a href="http://80000hours.org/">good I can do through my career</a>.</p>
 </div>
-
-
