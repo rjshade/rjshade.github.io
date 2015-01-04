@@ -1,5 +1,6 @@
 /* ----------------- COLORS ------------------------ */
 /* Colours */
+/* Sizes */
 /*
     Sass Reset - Converted by Hampton Catlin
     A modification of the original found at...
@@ -220,7 +221,7 @@ strong {
     margin: 0px auto;
     margin-bottom: 20px;
     position: relative;
-    width: 800px;
+    width: 500px;
     height: 500px;
     -moz-box-shadow: 0px 0px 5px #111;
     -webkit-box-shadow: 0px 0px 5px #111;

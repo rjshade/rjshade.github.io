@@ -7,6 +7,11 @@ $v_light_grey: #e4e4e4;
 $orange: #f08c26;
 $blue: #3d85aa;
 
+/* Sizes */
+$page_width: 800px;
+$imW: 500px;
+$imH: 500px;
+
 /*
     Sass Reset - Converted by Hampton Catlin
     A modification of the original found at...
@@ -83,7 +88,7 @@ p {
 }
 
 #wrapper {
-  width: 800px;
+  width: $page_width;
   margin: 0px auto;
   clear:both;
 }
@@ -178,7 +183,7 @@ strong {
   padding-bottom: 30px;
   font-size: 14px;
   color: $dark_grey;
-  width: 800px;
+  width: $page_width;
   line-height: 1.7em;
 
   h1,h2,h3,h4,h5,h6 {
@@ -286,8 +291,8 @@ strong {
     margin: 0px auto;
     margin-bottom: 20px;
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: $imW;
+    height: $imH;
     -moz-box-shadow:  0px 0px 5px #111;
     -webkit-box-shadow: 0px 0px 5px #111;
     box-shadow:   0px 0px 5px #111;
