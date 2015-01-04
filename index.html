@@ -10,7 +10,7 @@ $(window).load(function() {
   var num_images = 5
   var images = getRandomImages(num_images);
   for (var i = 0; i < images.length; ++i) {
-    image_html += "<div><a href='/photos'>" + getImageHTML(images[i]) + "</a></div>"
+    image_html += "<div><a href='/photos'>" + getImageHTML(images[i], '800px', '500px') + "</a></div>"
   }
 
   $('#fp-slideshow').append(image_html)
@@ -23,7 +23,7 @@ $(window).load(function() {
       .fadeIn(1500)
       .end()
       .appendTo('#fp-slideshow');
-  },  5000);
+  },  3000);
 });
 </script>
 
@@ -31,7 +31,10 @@ $(window).load(function() {
   <div id="fp-slideshow" class="slideshow">
     <div>
       <!-- In case JS disabled, still display one image. -->
-      <a href="/photos"><img src ='images/frontpage/monument_valley.jpg' width='800px' height='500px' /></a>
+      <a href="/photos">
+        <img src ='/images/photos/monument_valley.jpg' width='800px' height='500px'
+             srcset='/images/photos/monument_valley.jpg 1x, /images/photos/retina/monument_valley.jpg 2x'/>
+      </a>
     </div>
   </div>
 

@@ -11,14 +11,14 @@ $(window).load(function() {
   var grid_top_html = ""
   for (var i = 0; i < 3; ++i) {
     var image = images[i]
-    grid_top_html += "<li class='photo-grid-item'><a href='" + image[2] + "'>" + getImageHTML(image, '240px', '150px') + "</a></li>"
+    grid_top_html += "<li class='photo-grid-item'><a href='" + image[2] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
   }
   $('#photo-grid-top').append(grid_top_html)
 
   var grid_bottom_html = ""
   for (var i = 3; i < 12; ++i) {
     var image = images[i]
-    grid_bottom_html += "<li class='photo-grid-item'><a href='" + image[2] + "'>" + getImageHTML(image, '240px', '150px') + "</a></li>"
+    grid_bottom_html += "<li class='photo-grid-item'><a href='" + image[2] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
   }
   $('#photo-grid-bottom').append(grid_bottom_html)
 });
