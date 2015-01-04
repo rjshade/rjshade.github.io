@@ -229,18 +229,17 @@ strong {
 
 /* ------------- PAGE SPECIFIC STYLES ------------- */
 /* ----------------- WORK ------------------------ */
+.youtube-center {
+  text-align: center; }
+  .youtube-center iframe {
+    -moz-box-shadow: 0px 0px 3px #aaa;
+    -webkit-box-shadow: 0px 0px 3px #aaa;
+    box-shadow: 0px 0px 3px #aaa; }
+
 .work_pub {
   min-height: 300px;
   margin: 10px;
   margin-bottom: 30px;
-  -moz-box-shadow: 0px 0px 3px #aaa;
-  -webkit-box-shadow: 0px 0px 3px #aaa;
-  box-shadow: 0px 0px 3px #aaa;
-  border: 1px solid #ccc;
-  border-bottom-left-radius: 3px 3px;
-  border-bottom-right-radius: 3px 3px;
-  border-top-left-radius: 3px 3px;
-  border-top-right-radius: 3px 3px;
   padding: 10px; }
   .work_pub .work_pub_text {
     float: right;
@@ -299,10 +298,13 @@ strong {
     border-top-left-radius: 5px 5px;
     border-top-right-radius: 5px 5px;
     margin: none; }
+  .post h1 {
+    font-weight: normal;
+    font-size: 1.2em; }
   .post h2 {
     font-weight: normal;
-    font-size: 1.2em;
-    margin-top: 1.5em; }
+    font-size: 1.0em;
+    color: #999999; }
   .post p {
     margin: 1em 0; }
   .post .title {
