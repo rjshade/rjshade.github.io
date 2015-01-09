@@ -583,9 +583,24 @@ strong {
 }
 
 .cellular-automata {
+  margin-top: 20px;
+
   canvas {
     border: 1px solid rgba(100, 100, 100, 0.1);
-    margin: 20px;
+  }
+
+  .thumbnail-board {
+    canvas {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+  }
+
+  .full-width-board {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    margin: 0px;
   }
 }
 

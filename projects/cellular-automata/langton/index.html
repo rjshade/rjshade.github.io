@@ -1,0 +1,19 @@
+---
+layout: cellular-automata
+title: cellular automata
+---
+
+<h1>Langton's Ant</h1>
+<p><a href="http://en.wikipedia.org/wiki/Langton's_ant">more info</a> | <a href="/projects/cellular-automata">back</a></p>
+
+<div class='cellular-automata'>
+  <div id="debug"></div>
+  <div id='board' class='full-width-board'></div>
+  <script type="text/javascript">
+    var cellSize = 5
+    var dims = { rows: Math.round($(document).height() / cellSize),
+                 cols: Math.round($(document).width() / cellSize),
+                 size: cellSize }
+    new Langton(dims);
+  </script>
+</div>
