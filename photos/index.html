@@ -6,25 +6,16 @@ title: photos
 <script type="text/javascript">
 $(window).load(function() {
   // 3 images at top, 9 below.
-  var images = getRandomImages(12);
+  var images = getImages(12);
 
   var grid_top_html = ""
-  for (var i = 0; i < 3; ++i) {
+  for (var i = 0; i < 12; ++i) {
     var image = images[i]
-    grid_top_html += "<li class='photo-grid-item'><a data-fancybox='gallery' href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
+    grid_html += "<li class='photo-grid-item'><a data-fancybox='gallery' href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
   }
-  $('#photo-grid-top').append(grid_top_html)
-
-  var grid_bottom_html = ""
-  for (var i = 3; i < 12; ++i) {
-    var image = images[i]
-    grid_bottom_html += "<li class='photo-grid-item'><a href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
-  }
-  $('#photo-grid-bottom').append(grid_bottom_html)
+  $('#photo-grid').append(grid_html)
 });
 </script>
-
-<ul class="photo-grid" id="photo-grid-top"></ul>
 
 <div class="content_box">
   <p>I post photos to <a href="https://www.instagram.com/rjshade/">Instagram</a>
@@ -33,4 +24,4 @@ $(window).load(function() {
   <p>Some of my photos are shown on the <a href="https://plus.google.com/+RobbieShade/posts/FMybtzS9SXi">Chromecast idle screen</a>.</p>
 </div>
 
-<ul class="photo-grid" id="photo-grid-bottom"></ul>
+<ul class="photo-grid" id="photo-grid"></ul>

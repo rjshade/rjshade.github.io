@@ -41,6 +41,11 @@ function getRandomImages(num) {
   return shuffle(images).slice(0, num);
 }
 
+function getImages(num) {
+  if(typeof(num)==='undefined') num = 1;
+  return images.slice(0, num);
+}
+
 function getImageHTML(image, imW, imH, extra_path) {
   // An example |extra_path| may be "thumbs/"
   if(typeof(extra_path)==='undefined') extra_path = '';
