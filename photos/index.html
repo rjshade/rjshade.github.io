@@ -18,7 +18,7 @@ $(window).load(function() {
   var grid_bottom_html = ""
   for (var i = 3; i < 12; ++i) {
     var image = images[i]
-    grid_bottom_html += "<li class='photo-grid-item'><a href='" + image[2] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
+    grid_bottom_html += "<li class='photo-grid-item'><a href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
   }
   $('#photo-grid-bottom').append(grid_bottom_html)
 });
@@ -27,7 +27,7 @@ $(window).load(function() {
 <ul class="photo-grid" id="photo-grid-top"></ul>
 
 <div class="content_box">
-  <p>I post photos to <a href="https://plus.google.com/+RobbieShade">Google+</a>
+  <p>I post photos to <a href="https://www.instagram.com/rjshade/">Instagram</a>
      and <a href="https://www.flickr.com/photos/rjshade">Flickr</a>.</p>
 
   <p>Some of my photos are shown on the <a href="https://plus.google.com/+RobbieShade/posts/FMybtzS9SXi">Chromecast idle screen</a>.</p>
