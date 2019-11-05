@@ -8,7 +8,7 @@ $(window).load(function() {
   // 3 images at top, 9 below.
   var images = getImages(12);
 
-  var grid_top_html = ""
+  var grid_html = ""
   for (var i = 0; i < 12; ++i) {
     var image = images[i]
     grid_html += "<li class='photo-grid-item'><a data-fancybox='gallery' href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
