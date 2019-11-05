@@ -11,7 +11,7 @@ $(window).load(function() {
   var grid_top_html = ""
   for (var i = 0; i < 3; ++i) {
     var image = images[i]
-    grid_top_html += "<li class='photo-grid-item'><a href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
+    grid_top_html += "<li class='photo-grid-item'><a data-fancybox='gallery' href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
   }
   $('#photo-grid-top').append(grid_top_html)
 
