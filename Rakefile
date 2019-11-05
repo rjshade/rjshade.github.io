@@ -1,7 +1,7 @@
 task :default => [:generate]
 
 task :generate => :clear do
-  sh 'jekyll serve'
+  sh 'bundle exec jekyll serve'
 end
 
 task :clear do
