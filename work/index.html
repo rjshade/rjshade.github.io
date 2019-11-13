@@ -2,6 +2,7 @@
 layout: default
 title: work
 ---
+
 <div class="post">
   <h1>Verily<small>Cambridge, MA | 2017 to present</small></h1>
   <p>
@@ -11,7 +12,7 @@ title: work
 </div>
 
 <div class="post">
-  <h1>Google<small>Cambrige, MA | 2012 to 2017</small></h1>
+  <h1>Google<small>Cambridge, MA | 2012 to 2017</small></h1>
   <p>
     I was a senior software engineer at <a href="https://www.google.com/">Google</a>,
     in Cambridge, MA. I worked on networking infrastructure, and was involved in
@@ -19,57 +20,23 @@ title: work
     a next generation transport protocol over UDP.
   </p>
   <p>
+    In 2017 I was a primary author of Google's paper about QUIC, published at SIGCOMM.
+  </p>
+  {% include publication.html paper="sigcomm_2017" %}
+
+  <p>
     In 2016 I wrote the
     <a href="https://tools.ietf.org/html/draft-shade-quic-http2-mapping-00">HTTP-over-QUIC spec</a>,
     which has become the basis for
     <a href="https://quicwg.org/base-drafts/draft-ietf-quic-http.html">HTTP/3 at the IETF</a>.
   </p>
+  {% include publication.html paper="quic_mapping_2016" %}
+
   <p>
-    In 2014, as part of the Google Developers Live series, I got the chance to
-    talk about some of the work we have done, and where we hope to go next:
+    In 2014, I got the chance to talk about QUIC as part of the Google Developers Live series.
   </p>
-  <p class="youtube-center">
+  <div class="youtube shadow_box">
     <iframe width="560" height="315" src="//www.youtube.com/embed/hQZ-0mXFmk8" frameborder="0" allowfullscreen></iframe>
-  </p>
-
-  <div class="work_pub">
-    <div class="text">
-      <h2>The QUIC Transport Protocol: Design and Internet-scale Deployment
-          <small>SIGCOMM, Los Angeles | August 2017</small>
-      </h2>
-      <p>
-        <span class="authors">
-        Adam Langley, Alistair Riddoch, Alyssa Wilk, Antonio Vicente, Charles Krasic, Dan Zhang, Fan
-        Yang, Fedor Kouranov, Ian Swett, Janardhan Iyengar, Jeff Bailey, Jeremy Dorfman, Jim Roskind,
-        Joanna Kulik, Patrik Westin, Raman Tenneti, <span class="me">Robbie Shade</span>, Ryan Hamilton,
-        Victor Vasiliev, Wan-Teh Chang, Zhongyi Shi
-        </span>
-      </p>
-
-      <p>
-      We present our experience with QUIC, an encrypted, multiplexed, and
-      low-latency transport protocol designed from the ground up to improve
-      transport performance for HTTPS traffic and to enable rapid deployment and
-      continued evolution of transport mechanisms. QUIC has been globally
-      deployed at Google on thousands of servers and is used to serve traffic to
-      a range of clients including a widely-used web browser (Chrome) and a
-      popular mobile video streaming app (YouTube). We estimate that 7% of
-      Internet traffic is now QUIC. We describe our motivations for developing a
-      new transport, the principles that guided our design, the Internet-scale
-      process that we used to perform iterative experiments on QUIC, performance
-      improvements seen by our various services, and our experience deploying
-      QUIC globally. We also share lessons about transport design and the
-      Internet ecosystem that we learned from our deployment.
-      </p>
-      <p>
-        Download:
-        <a href="/work/files/papers/pdf/langley_et_al_sigcomm2017_quic.pdf">pdf</a> |
-        <a href="/work/files/papers/bib/langley_et_al_sigcomm2017_quic.bib">BibTeX </a>
-      </p>
-    </div>
-    <a href="/work/files/papers/pdf/langley_et_al_sigcomm2017_quic.pdf">
-      <img src="/work/files/papers/img/langley_et_al_sigcomm2017_quic.png" />
-    </a>
   </div>
 </div>
 
@@ -90,124 +57,8 @@ title: work
     suitable boundary conditions ensures complete exploration.
   </p>
 
-  <div class="work_pub">
-    <div class="text">
-    <h2>Choosing Where To Go: Mobile Robot Exploration
-    <small>D.Phil Thesis, Oxford, August 2011</small>
-    </h2>
-    <p>
-    <span class="authors me">Robbie Shade</span>
-    </p>
-    <p>
-      For a mobile robot to engage in exploration of a-priori unknown
-      environments it must be able to identify locations which will yield new
-      information when visited.  This thesis presents two novel algorithms
-      which attempt to answer the question of choosing where a robot should go
-      next in a partially explored workspace.  To begin we describe the process
-      of acquiring highly accurate dense 3D data from a stereo camera. This
-      approach combines techniques from a number of existing implementations
-      and is demonstrated to be more accurate than a range of commercial
-      offerings. Combined with state of the art visual odometry based pose
-      estimation we can use these point clouds to drive exploration.
-    </p>
-    <p>
-    Download: 
-      <a href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf">pdf</a> |
-      <a href="/work/files/papers/bib/shade_dphil_thesis_2011.bib">BibTeX </a>
-    </p>
-    </div>
-    <a href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf">
-      <img src="/work/files/papers/img/shade_dphil_thesis_2011.png" />
-    </a>
-  </div>
-
-  <div class="work">
-    <h2>Choosing Where To Go: Complete 3D Exploration with Stereo
-    <small>ICRA, Shanghai, China, May 2011</small>
-    </h2>
-    <a href="/work/files/papers/pdf/shade_newman_icra2011_choosing.pdf">
-      <img src="/work/files/papers/img/shade_newman_icra2011_choosing.png" />
-    </a>
-    <p>
-      <span class="authors"><span class="me">Robbie Shade</span> and Paul Newman</span>
-      <a href="/work/files/papers/pdf/shade_newman_icra2011_choosing.pdf">pdf</a> |
-      <a href="/work/files/papers/bib/shade_newman_icra2011_choosing.bib">BibTeX </a>
-    </p>
-    <p>
-      This paper is about the autonomous acquisition of detailed 3D maps of
-      a-priori unknown environments using a stereo camera - it is about
-      choosing where to go. Our approach hinges upon a boundary value
-      constrained partial differential equation (PDE) – the solution of which
-      provides a scalar field guaranteed to have no local minima. This scalar
-      field is trivially transformed into a vector field in which following
-      lines of max flow causes provably complete exploration of the
-      environment in full 6 degrees of freedom (6-DOF). We use a SLAM system
-      to infer the position of a stereo pair in real time and fused stereo
-      depth maps to generate the boundary conditions which drive exploration.
-      Our exploration algorithm is parameter free, is as applicable to 3D
-      laser data as it is to stereo, is real time and is guaranteed to
-      deliver complete exploration. We show empirically that it performs
-      better than oft-used frontier based approaches and demonstrate our
-      system working with real and simulated data
-    </p>
-  </div>
-
-  <div class="work_pub">
-    <h2>Discovering and Mapping Complete Surfaces With Stereo
-    <small>ICRA, Anchorage, Alaska | May 2010</small></h2>
-    <a href="/work/files/papers/pdf/shade_newman_icra2010_discovering.pdf">
-      <img src="/work/files/papers/img/shade_newman_icra2010_discovering.png" />
-    </a>
-    <p>
-      <span class="me">Robbie Shade</span> and Paul Newman
-      <a href="/work/files/papers/pdf/shade_newman_icra2010_discovering.pdf">pdf</a> |
-      <a href="/work/files/papers/bib/shade_newman_icra2010_discovering.bib">BibTeX </a>
-    </p>
-    <p>
-      This paper is about the automated discovery and mapping of surfaces using
-      a stereo pair. We begin with the observation that for any workspace which
-      is topologically connected (i.e. does not contain free flying islands)
-      there exists a single surface that covers the entirety of the workspace.
-      We call this surface the covering surface. We assume that while this
-      surface is complex and self intersecting every point on it can be imaged
-      from a suitable camera pose and furthermore that it is locally smooth at
-      some finite scale – it is a manifold.  We show how by representing the
-      covering surface as a nonplanar graph of observed pixels we are able to
-      plan new views and importantly fuse disparity maps from multiple views.
-      The resulting graph can be lifted to 3D to yield a full scene
-      reconstruction.
-    </p>
-  </div>
-
-  <div class="work_pub">
-    <h2>Navigating, Recognising and Describing Urban Spaces With Vision and Laser
-    <small>IJRR | 28th October 2009</small>
-    </h2>
-    <a href="/work/files/papers/pdf/newman_et_al_ijrr2009_navigating.pdf">
-      <img src="/work/files/papers/img/newman_et_al_ijrr2009_navigating.png" />
-    </a>
-    <p>
-      Paul Newman, Gabe Sibley, Mike Smith, Mark Cummins,
-      Alastair Harrison, Christopher Mei, Ingmar Posner,
-      <span class="me">Robbie Shade</span>, Derik Schröter,
-      Liz Murphy, Winston Churchill, Dave Cole and Ian Reid
-
-      <a href="/work/files/papers/pdf/newman_et_al_ijrr2009_navigating.pdf">pdf</a> |
-      <a href="/work/files/papers/bib/newman_et_al_ijrr2009_navigating.bib">BibTeX</a>
-    </p>
-    <p>
-      In this paper we describe a body of work aimed at extending the reach
-      of mobile navigation and mapping. We describe how running topological
-      and metric mapping and pose estimation processes concurrently, using
-      vision and laser ranging, has produced a full sixdegree-of-freedom
-      outdoor navigation system. It is capable of producing intricate
-      three-dimensional maps over many kilometers and in real time. We
-      consider issues concerning the intrinsic quality of the built maps and
-      describe our progress towards adding semantic labels to maps via scene
-      de-construction and labeling. We show how our choices of
-      representation, inference methods and use of both topological and
-      metric techniques naturally allow us to fuse maps built from multiple
-      sessions with no need for manual frame alignment or data association.
-    </p>
-  </div>
+  {% include publication.html paper="dphil_2011" %}
+  {% include publication.html paper="icra_2011" %}
+  {% include publication.html paper="icra_2010" %}
+  {% include publication.html paper="ijrr_2010" %}
 </div>
