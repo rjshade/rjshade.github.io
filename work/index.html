@@ -3,7 +3,7 @@ layout: default
 title: work
 ---
 <div class="post">
-  <h1>Verily<br/><span class="date">2017 to present</span></h1>
+  <h1>Verily<small>Cambridge, MA | 2017 to present</small></h1>
   <p>
     I'm a senior software engineer at <a href="https://www.verily.com/">Verily</a>,
     in Cambridge, MA.
@@ -11,7 +11,7 @@ title: work
 </div>
 
 <div class="post">
-  <h1>Google<br/><span class="date">2012 to 2017<span></h1>
+  <h1>Google<small>Cambrige, MA | 2012 to 2017</small></h1>
   <p>
     I was a senior software engineer at <a href="https://www.google.com/">Google</a>,
     in Cambridge, MA. I worked on networking infrastructure, and was involved in
@@ -32,43 +32,51 @@ title: work
     <iframe width="560" height="315" src="//www.youtube.com/embed/hQZ-0mXFmk8" frameborder="0" allowfullscreen></iframe>
   </p>
 
-  <div class="work">
-    <h2>The QUIC Transport Protocol: Design and Internet-scale Deployment</h2>
-    <h3>SIGCOMM, Los Angeles, August 2017</h3>
+  <div class="work_pub">
+    <div class="text">
+      <h2>The QUIC Transport Protocol: Design and Internet-scale Deployment
+          <small>SIGCOMM, Los Angeles | August 2017</small>
+      </h2>
+      <p>
+        <span class="authors">
+        Adam Langley, Alistair Riddoch, Alyssa Wilk, Antonio Vicente, Charles Krasic, Dan Zhang, Fan
+        Yang, Fedor Kouranov, Ian Swett, Janardhan Iyengar, Jeff Bailey, Jeremy Dorfman, Jim Roskind,
+        Joanna Kulik, Patrik Westin, Raman Tenneti, <span class="me">Robbie Shade</span>, Ryan Hamilton,
+        Victor Vasiliev, Wan-Teh Chang, Zhongyi Shi
+        </span>
+      </p>
+
+      <p>
+      We present our experience with QUIC, an encrypted, multiplexed, and
+      low-latency transport protocol designed from the ground up to improve
+      transport performance for HTTPS traffic and to enable rapid deployment and
+      continued evolution of transport mechanisms. QUIC has been globally
+      deployed at Google on thousands of servers and is used to serve traffic to
+      a range of clients including a widely-used web browser (Chrome) and a
+      popular mobile video streaming app (YouTube). We estimate that 7% of
+      Internet traffic is now QUIC. We describe our motivations for developing a
+      new transport, the principles that guided our design, the Internet-scale
+      process that we used to perform iterative experiments on QUIC, performance
+      improvements seen by our various services, and our experience deploying
+      QUIC globally. We also share lessons about transport design and the
+      Internet ecosystem that we learned from our deployment.
+      </p>
+      <p>
+        Download:
+        <a href="/work/files/papers/pdf/langley_et_al_sigcomm2017_quic.pdf">pdf</a> |
+        <a href="/work/files/papers/bib/langley_et_al_sigcomm2017_quic.bib">BibTeX </a>
+      </p>
+    </div>
     <a href="/work/files/papers/pdf/langley_et_al_sigcomm2017_quic.pdf">
       <img src="/work/files/papers/img/langley_et_al_sigcomm2017_quic.png" />
     </a>
-    <p>
-      Adam Langley, Alistair Riddoch, Alyssa Wilk, Antonio Vicente, Charles Krasic, Dan Zhang, Fan
-      Yang, Fedor Kouranov, Ian Swett, Janardhan Iyengar, Jeff Bailey, Jeremy Dorfman, Jim Roskind,
-      Joanna Kulik, Patrik Westin, Raman Tenneti, <span class="me">Robbie Shade</span>, Ryan Hamilton,
-      Victor Vasiliev, Wan-Teh Chang, Zhongyi Shi
-      <a href="/work/files/papers/pdf/langley_et_al_sigcomm2017_quic.pdf">pdf</a> |
-      <a href="/work/files/papers/bib/langley_et_al_sigcomm2017_quic.bib">BibTeX </a>
-    </p>
-
-    <p>
-    We present our experience with QUIC, an encrypted, multiplexed, and
-    low-latency transport protocol designed from the ground up to improve
-    transport performance for HTTPS traffic and to enable rapid deployment and
-    continued evolution of transport mechanisms. QUIC has been globally
-    deployed at Google on thousands of servers and is used to serve traffic to
-    a range of clients including a widely-used web browser (Chrome) and a
-    popular mobile video streaming app (YouTube). We estimate that 7% of
-    Internet traffic is now QUIC. We describe our motivations for developing a
-    new transport, the principles that guided our design, the Internet-scale
-    process that we used to perform iterative experiments on QUIC, performance
-    improvements seen by our various services, and our experience deploying
-    QUIC globally. We also share lessons about transport design and the
-    Internet ecosystem that we learned from our deployment.
-    </p>
   </div>
 </div>
 
 <div class="post">
   <h1>
     Mobile Robotics Group, Oxford University
-    <br/><span class="date">2007 to 2012</span>
+    <small>Oxford, England | 2007 to 2012</small>
   </h1>
   <p>
     In 2012 I successfully defended my DPhil (PhD). I was a member of the
@@ -82,15 +90,13 @@ title: work
     suitable boundary conditions ensures complete exploration.
   </p>
 
-  <div class="work">
-    <h2>Choosing Where To Go: Mobile Robot Exploration</h2>
-    <h3>D.Phil Thesis, Oxford, August 2011</h3>
-    <a href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf">
-      <img src="/work/files/papers/img/shade_dphil_thesis_2011.png" />
-    </a>
-    <p>Robbie Shade
-      <a href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf">pdf</a> |
-      <a href="/work/files/papers/bib/shade_dphil_thesis_2011.bib">BibTeX </a>
+  <div class="work_pub">
+    <div class="text">
+    <h2>Choosing Where To Go: Mobile Robot Exploration
+    <small>D.Phil Thesis, Oxford, August 2011</small>
+    </h2>
+    <p>
+    <span class="authors me">Robbie Shade</span>
     </p>
     <p>
       For a mobile robot to engage in exploration of a-priori unknown
@@ -104,16 +110,26 @@ title: work
       offerings. Combined with state of the art visual odometry based pose
       estimation we can use these point clouds to drive exploration.
     </p>
+    <p>
+    Download: 
+      <a href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf">pdf</a> |
+      <a href="/work/files/papers/bib/shade_dphil_thesis_2011.bib">BibTeX </a>
+    </p>
+    </div>
+    <a href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf">
+      <img src="/work/files/papers/img/shade_dphil_thesis_2011.png" />
+    </a>
   </div>
 
   <div class="work">
-    <h2>Choosing Where To Go: Complete 3D Exploration with Stereo</h2>
-    <h3>IEEE International Conference on Robotics and Automation, Shanghai, China, May 2011</h3>
+    <h2>Choosing Where To Go: Complete 3D Exploration with Stereo
+    <small>ICRA, Shanghai, China, May 2011</small>
+    </h2>
     <a href="/work/files/papers/pdf/shade_newman_icra2011_choosing.pdf">
       <img src="/work/files/papers/img/shade_newman_icra2011_choosing.png" />
     </a>
     <p>
-      <span class="me">Robbie Shade</span> and Paul Newman
+      <span class="authors"><span class="me">Robbie Shade</span> and Paul Newman</span>
       <a href="/work/files/papers/pdf/shade_newman_icra2011_choosing.pdf">pdf</a> |
       <a href="/work/files/papers/bib/shade_newman_icra2011_choosing.bib">BibTeX </a>
     </p>
@@ -136,9 +152,9 @@ title: work
     </p>
   </div>
 
-  <div class="work">
-    <h2>Discovering and Mapping Complete Surfaces With Stereo</h2>
-    <h3>IEEE International Conference on Robotics and Automation, Anchorage, Alaska, May 2010</h3>
+  <div class="work_pub">
+    <h2>Discovering and Mapping Complete Surfaces With Stereo
+    <small>ICRA, Anchorage, Alaska | May 2010</small></h2>
     <a href="/work/files/papers/pdf/shade_newman_icra2010_discovering.pdf">
       <img src="/work/files/papers/img/shade_newman_icra2010_discovering.png" />
     </a>
@@ -163,9 +179,10 @@ title: work
     </p>
   </div>
 
-  <div class="work">
-    <h2>Navigating, Recognising and Describing Urban Spaces With Vision and Laser</h2>
-    <h3>The International Journal of Robotics Research, 28th October 2009</h3>
+  <div class="work_pub">
+    <h2>Navigating, Recognising and Describing Urban Spaces With Vision and Laser
+    <small>IJRR | 28th October 2009</small>
+    </h2>
     <a href="/work/files/papers/pdf/newman_et_al_ijrr2009_navigating.pdf">
       <img src="/work/files/papers/img/newman_et_al_ijrr2009_navigating.png" />
     </a>
