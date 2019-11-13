@@ -16,29 +16,8 @@ var images = [
   ["Yosemite Valley",  "yosemite_valley.jpg"],
 ]
 
-// Fisher-Yates shuffle
-function shuffle(array) {
-  var currentIndex = array.length, temporaryValue, randomIndex ;
-
-  // While there remain elements to shuffle...
-  while (0 !== currentIndex) {
-
-    // Pick a remaining element...
-    randomIndex = Math.floor(Math.random() * currentIndex);
-    currentIndex -= 1;
-
-    // And swap it with the current element.
-    temporaryValue = array[currentIndex];
-    array[currentIndex] = array[randomIndex];
-    array[randomIndex] = temporaryValue;
-  }
-
-  return array;
-}
-
-function getRandomImages(num) {
-  if(typeof(num)==='undefined') num = 1;
-  return shuffle(images).slice(0, num);
+function getRandomImage(num) {
+  return images[Math.floor(Math.random() * images.length)];
 }
 
 function getImages(num) {
@@ -56,7 +35,7 @@ function getImageHTML(image, imW, imH, extra_path) {
   var image_path = base + extra_path + image[1]
   var image_path_retina = retina_base + extra_path + image[1]
   return "<img alt='" + image[0] + "' src ='" + image_path +
-         "' width='" + imW + "' height='" + imH +
-         "' srcset='" + image_path + " 1x, " +
+         "' width='100%' height='auto' srcset='" +
+         image_path + " 1x, " +
          image_path_retina + " 2x' />"
 }

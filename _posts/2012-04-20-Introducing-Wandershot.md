@@ -7,6 +7,6 @@ Unable to find a simple, minimalist travel blogging platform, I've done the obvi
 
 <div>
 <a class="no_border" href="http://wandershot.com/">
-<img class="page_width" src="/blog/files/2012/04/20/wandershot.png" alt="wandershot.com"/>
+<img width='100%' height='auto' src="/blog/files/2012/04/20/wandershot.png" alt="wandershot.com"/>
 </a>
 </div>

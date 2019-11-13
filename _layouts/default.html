@@ -2,79 +2,49 @@
 <html xmlns="https://www.w3.org/1999/xhtml">
   <head>
     <title>rjshade.com :: {{ page.title }} </title>
-
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="shortcut icon" href="https://www.rjshade.com/favicon.ico" />
 
+    <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/normalize.css" />
+    <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/main.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 
-    <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/syntax.css" />
-    <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/main.css" />
-    <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/jquery-ui/jquery-ui-1.8.16.custom.css" />
-
-    <!-- for displaying image grids/slideshows -->
     <script src="/js/images.js"></script>
 
-    <!-- for image lightboxes -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
-
-    <!-- jquery -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-
-    <!-- jquery UI -->
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-
-    <!-- facebook open graph -->
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content="https://rjshade.com/images/opengraph.png"/>
-    <meta property="og:title" content="rjshade.com"/>
-    <meta property="og:url" content="https://rjshade.com/"/>
-    <meta property="fb:admins" content="36804805"/>
-    <meta property="og:description" content="Robbie Shade's personal website."/>
-
-    <!-- google analytics -->
-    <script type="text/javascript">
-
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-13183825-1']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'https://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
 
   <body>
-    <div id="wrapper">
-      <div id="header">
-        <div id="title">
-          <div id="title_main">
-            <a href="/">rjshade.com</a>
-          </div>
-        </div>
+    <div class="wrapper">
+      <nav id="siteMenu">
+        <a href="/"  class="logo">rjshade.com</a>
+        <a href="/"              >home</a>
+        <a href="/photos"        >photos</a>
+        <a href="/work"          >work</a>
+        <a href="/about"         >about</a>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
 
-        <div id="menu">
-          <ul class="menu">
-            <li><a href="/"        >home</a></li>
-            <li><a href="/blog"    >blog</a></li>
-            <li><a href="/work"    >work</a></li>
-            <li><a href="/projects">projects</a></li>
-            <li><a href="/photos"  >photos</a></li>
-            <li><a href="/about"   >about</a></li>
-          </ul>
-        </div> <!-- menu -->
-      </div> <!-- header -->
-
-      <div class="horz_pagewidth_rule"></div>
-
-      <div id="content">
+      <div class="content">
         {{ content }}
-      </div> <!-- content -->
-    </div> <!-- wrapper -->
+      </div>
+    </div>
+
+    <script>
+    // For toggling the navbar via hamburger menu.
+    function toggleMenu() {
+      var x = document.getElementById("siteMenu");
+      if (x.className === "") {
+        x.className = "responsive";
+      } else {
+        x.className = "";
+      }
+    }
+    </script>
   </body>
 </html>
+
