@@ -27,8 +27,13 @@ img {
 }
 
 nav {
+  z-index: 1;
+  position: fixed;
   overflow: hidden;
   padding-bottom: 10px;
+  width: 80%;
+  max-width: 800px;
+  background-color: white;
 
   a {
     float: left;
@@ -50,7 +55,10 @@ nav {
     float: right;
     display: block;
   }
-  nav.responsive {position: relative;}
+  nav.responsive {position: fixed;
+    width: 80%;
+    max-width: 80%;
+  }
   nav.responsive .icon {
     position: absolute;
     right: 0;
@@ -64,7 +72,8 @@ nav {
 }
 
 .content {
-  margin-top: 2em;
+  // Leave space for the fixed navbar.
+  padding-top: 5em;
 }
 
 .post {
@@ -120,6 +129,7 @@ a {
 }
 
 .youtube{
+  z-index: 0;
   overflow:hidden;
   padding-bottom:56.25%;
   position:relative;
