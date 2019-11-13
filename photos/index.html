@@ -14,9 +14,9 @@ title: photos
 
 <script type="text/javascript">
 $(window).on("load", function() {
-  var images = getImages(12);
+  var images = getImages();
   var grid_html = ""
-  for (var i = 0; i < 12; ++i) {
+  for (var i = 0; i < images.length; ++i) {
     var image = images[i]
     grid_html += "<a class='photo-grid-item' href='/images/photos/original/"
                  + image[1] + "'>"

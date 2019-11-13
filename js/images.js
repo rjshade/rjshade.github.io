@@ -2,18 +2,28 @@
 var images = [
   ["Aiguilles Rouge", "aiguilles_rouge.jpg"],
   ["Aple dHuez", "alpe_dhuez.jpg"],
-  ["Col du Galibier", "bike.jpg"],
   ["Boston Back Bay", "boston_back_bay.jpg"],
-  ["Fan Pier, Boston", "boston_fan_pier.jpg"],
   ["Boston skyline", "boston_skyline.jpg"],
+  ["Boston",  "boston_prudential.jpg"],
+  ["Bryce Canyon", "bryce_canyon.jpg"],
+  ["Col dIzoard", "col_dizoard_france.jpg"],
+  ["Col du Galibier", "bike.jpg"],
+  ["Fan Pier, Boston", "boston_fan_pier.jpg"],
+  ["Fiacaill Ridge",  "fiacaill_ridge.jpg"],
+  ["Frenchman Bay", "frenchman_bay.jpg"],
+  ["Grand Teton",  "grand_teton.jpg"],
+  ["MIT Stata Center", "mit_stata_center.jpg"],
+  ["Mad River",  "mad_river.jpg"],
+  ["Mesa Arch", "mesa_arch.jpg"],
+  ["Monument Valley, AZ", "monument_valley.jpg"],
+  ["San Francisco",  "san_francisco.jpg"],
+  ["Sgurr Alasdair, Skye", "skye.jpg"],
+  ["Shafer Trail, Utah", "shafer_trail_utah.jpg"],
+  ["Washington DC",  "washington_dc.jpg"],
+  ["Yosemite El Capitan", "yosemite_el_capitan.jpg"],
+  ["Yosemite Valley",  "yosemite_valley.jpg"],
   ["Zakim Bridge, Boston", "boston_zakim_bridge.jpg"],
   ["Zakim Bridge, Boston", "boston_zakim_night.jpg"],
-  ["Col dIzoard", "col_dizoard_france.jpg"],
-  ["MIT Stata Center", "mit_stata_center.jpg"],
-  ["Monument Valley, AZ", "monument_valley.jpg"],
-  ["Shafer Trail, Utah", "shafer_trail_utah.jpg"],
-  ["Sgurr Alasdair, Skye", "skye.jpg"],
-  ["Yosemite Valley",  "yosemite_valley.jpg"],
 ]
 
 function getRandomImage(num) {
@@ -21,7 +31,7 @@ function getRandomImage(num) {
 }
 
 function getImages(num) {
-  if(typeof(num)==='undefined') num = 1;
+  if(typeof(num)==='undefined') num = images.length;
   return images.slice(0, num);
 }
 
