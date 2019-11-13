@@ -38,7 +38,7 @@ nav {
     text-decoration: none;
   }
 
-  a.logo { color: $dark_grey; }
+  a.logo { color: $dark_grey; font-size: 1.2em; font-weight: bold; }
   .icon { display: none; }
 
   border-bottom: 1px solid $v_light_grey;
@@ -67,12 +67,12 @@ nav {
 }
 
 .content {
-  margin-top: 1em;
+  margin-top: 2em;
 }
 
 .post {
-  border-bottom: 1px solid $v_light_grey;
   clear: both;
+  border-bottom: 1px solid $v_light_grey;
 }
 
 h1 {

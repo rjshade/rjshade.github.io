@@ -6,8 +6,6 @@ title: photos
 <div class="post">
   <p>I post photos to <a href="https://www.instagram.com/rjshade/">Instagram</a>
      and <a href="https://www.flickr.com/photos/rjshade">Flickr</a>.</p>
-
-  <p>Some of my photos are shown on the <a href="https://plus.google.com/+RobbieShade/posts/FMybtzS9SXi">Chromecast idle screen</a>.</p>
 </div>
 
 <div class="post">
@@ -20,7 +18,9 @@ $(window).on("load", function() {
   var grid_html = ""
   for (var i = 0; i < 12; ++i) {
     var image = images[i]
-    grid_html += "<a class='photo-grid-item' href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a>"
+    grid_html += "<a class='photo-grid-item' href='/images/photos/original/"
+                 + image[1] + "'>"
+                 + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a>"
   }
   $('#photo-grid').append(grid_html)
 });
