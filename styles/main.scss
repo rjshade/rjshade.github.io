@@ -22,10 +22,6 @@ html,body {
   margin: auto;
 }
 
-img {
-  border-radius: 5px 5px;
-}
-
 nav {
   z-index: 1;
   position: fixed;
@@ -118,6 +114,19 @@ a {
       width: 30%;
       height: auto;
     }
+  }
+}
+
+@media screen and (max-width: $phone_width) {
+  .photo-grid .photo-grid-item img {
+    width: 45%;
+  }
+}
+
+#fp-image {
+  img {
+    width: 100%;
+    height: auto;
   }
 }
 
