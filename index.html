@@ -4,11 +4,28 @@ title: home
 ---
 
 <div class="post">
-  <div id="image"></div>
+  <div id="fp-image" class="shadow_box"></div>
   <p>I'm Robbie Shade, and I <a href="/work">work at Verily</a>.</p>
-  <p>I take <a href="/photos">photos</a>, I'm interested in <a href="/2012/04/10/Philanthropy/">effective altruism</a>, and I want to maximize the <a href="https://80000hours.org/">good I can do through my career</a>.</p>
+  <p>
+    I take <a href="/photos">photos</a>,
+    I'm interested in <a href="/2012/04/10/Philanthropy/">effective altruism</a>,
+    and I want to maximize the
+    <a href="https://80000hours.org/">good I can do through my career</a>.
+  </p>
 </div>
 
 <script type="text/javascript">
-$(window).on("load", function() { $('#image').append("<a href='/photos'>" + getImageHTML(getRandomImage(), '800px', '500px') + "</a>") });
+// Cheeky little bit of JS + Jekyll/Liquid to load a random photo on load.
+$(window).on("load", function() {
+  var images = [
+    {% for photo in site.data.photos %}
+      ["{{ photo.title }}", "{{ photo.file }}"],
+    {% endfor %}
+  ]
+  photo = images[Math.floor(Math.random() * images.length)]
+  $('#fp-image').append(
+      "<a href='/photos'>"
+    +   "<img alt='" + photo[0] + "' src='/images/photos/retina/" + photo[1] + "' />"
+    + "</a>")
+});
 </script>
