@@ -9,19 +9,9 @@ title: photos
 </div>
 
 <div class="post">
-  <div class="photo-grid" id="photo-grid"></div>
+  <div class="photo-grid" id="photo-grid">
+    {% for photo in site.data.photos %}
+      {% include photo.html photo=photo %}
+    {% endfor %}
+  </div>
 </div>
-
-<script type="text/javascript">
-$(window).on("load", function() {
-  var images = getImages();
-  var grid_html = ""
-  for (var i = 0; i < images.length; ++i) {
-    var image = images[i]
-    grid_html += "<a class='photo-grid-item' href='/images/photos/original/"
-                 + image[1] + "'>"
-                 + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a>"
-  }
-  $('#photo-grid').append(grid_html)
-});
-</script>
