@@ -1,0 +1,17 @@
+{% assign paper = site.data.publications[include.paper] %}
+<div class="work_pub">
+  <div class="text">
+    <h2>{{ paper.title }}<small>{{ paper.location }} | {{ paper.date }}</small></h2>
+    <p><span class="authors">{{ paper.authors }}</span></p>
+    <p>{{ paper.abstract }}</p>
+    <p>
+      Download:
+      <a href="{{ paper.pdf }}">pdf</a> |
+      <a href="{{ paper.bib }} ">BibTeX </a>
+    </p>
+  </div>
+  <a href="{{ paper.pdf }}">
+    <img class="shadow_box" src="{{ paper.png }}" />
+  </a>
+</div>
+

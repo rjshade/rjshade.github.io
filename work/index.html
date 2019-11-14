@@ -2,229 +2,63 @@
 layout: default
 title: work
 ---
-<div class="post">
-<h1>Verily</h1>
-<h2>2017 - present</h2>
-<p>
-  I'm a software engineer at <a href="https://www.verily.com/">Verily</a>,
-  in Cambridge, MA.
-</p>
-</div>
 
 <div class="post">
-<h1>Google</h1>
-<h2>2012 - 2017</h2>
-<p>
-  I was a senior software engineer at <a href="https://www.google.com/">Google</a>,
-  in Cambridge, MA. I worked on networking infrastructure, and was involved in
-  the <a href="https://en.wikipedia.org/wiki/QUIC">QUIC</a> project: developing
-  a next generation transport protocol over UDP.
-</p>
-<p>
-  In 2016, along with Mike Warres, I wrote the
-  <a href="https://tools.ietf.org/html/draft-shade-quic-http2-mapping-00">HTTP-over-QUIC spec</a>,
-  which has become the basis for
-  <a href="https://quicwg.org/base-drafts/draft-ietf-quic-http.html">HTTP/3 at the IETF</a>.
-</p>
-<p>
-  In 2014, as part of the Google Developers Live series, I got the chance to
-  talk about some of the work we have done, and where we hope to go next:
-</p>
-<p class="youtube-center">
-  <iframe width="560" height="315" src="//www.youtube.com/embed/hQZ-0mXFmk8" frameborder="0" allowfullscreen></iframe>
-</p>
-
-<!-- ............. SIGCOMM 2017 ................ -->
-
-<div class="work_pub">
-    <div class="work_pub_text">
-        <div class="work_pub_title">
-            The QUIC Transport Protocol: Design and Internet-scale Deployment
-        </div>
-
-        <div class="work_pub_authors">
-          Adam Langley, Alistair Riddoch, Alyssa Wilk, Antonio Vicente, Charles Krasic, Dan Zhang, Fan
-          Yang, Fedor Kouranov, Ian Swett, Janardhan Iyengar, Jeff Bailey, Jeremy Dorfman, Jim Roskind,
-          Joanna Kulik, Patrik Westin, Raman Tenneti, <span class="me">Robbie Shade</span>, Ryan Hamilton,
-          Victor Vasiliev, Wan-Teh Chang, Zhongyi Shi
-        </div>
-
-        <div class="horz_rule"></div>
-
-        <div class="work_pub_published">
-            SIGCOMM
-            <br/>
-            Los Angeles, August 2017
-        </div>
-
-        <div class="work_pub_download">
-            [ <a href="/work/files/papers/pdf/langley_et_al_sigcomm2017_quic.pdf">pdf</a> ]
-            [ <a href="/work/files/papers/bib/langley_et_al_sigcomm2017_quic.bib">BibTeX </a> ]
-        </div>
-    </div>
-
-    <div class="work_pub_thumb">
-        <a class="no_border"  href="/work/files/papers/pdf/langley_et_al_sigcomm2017_quic.pdf"><img class="shadow" src="/work/files/papers/img/langley_et_al_sigcomm2017_quic.png" /></a>
-    </div>
-</div>
+  <h1>Verily<small>Cambridge, MA | 2017 to present</small></h1>
+  <p>
+    I'm a senior software engineer at <a href="https://www.verily.com/">Verily</a>,
+    in Cambridge, MA.
+  </p>
 </div>
 
 <div class="post">
-<h1>Mobile Robotics Group, Oxford University</h1>
-<h2>2007 - 2012</h2>
-<p>
-  In 2012 I successfully defended my DPhil (PhD). I was a member of the
-  <a href="https://www.robots.ox.ac.uk/~mobile/">Mobile Robotics Group</a>
-  at <a href="https://www.ox.ac.uk/">Oxford University</a>, under the supervision
-  of <a href="https://www.robots.ox.ac.uk/~pnewman">Prof. Paul Newman</a>.
-  My thesis focused on autonomous exploration, and developing novel approaches to
-  solving this problem for robots capable of three dimensional movement.
-  Most successfull is a method based on solving a partial differential
-  equation across a voxelised representation of the robot's workspace: choosing
-  suitable boundary conditions ensures complete exploration.
-</p>
+  <h1>Google<small>Cambridge, MA | 2012 to 2017</small></h1>
+  <p>
+    I was a senior software engineer at <a href="https://www.google.com/">Google</a>,
+    in Cambridge, MA. I worked on networking infrastructure, and was involved in
+    the <a href="https://en.wikipedia.org/wiki/QUIC">QUIC</a> project: developing
+    a next generation transport protocol over UDP.
+  </p>
+  <p>
+    In 2017 I was a primary author of Google's paper about QUIC, published at SIGCOMM.
+  </p>
+  {% include publication.html paper="sigcomm_2017" %}
 
-<!-- ............. DPHIL THESIS 2011 ................ -->
+  <p>
+    In 2016 I wrote the
+    <a href="https://tools.ietf.org/html/draft-shade-quic-http2-mapping-00">HTTP-over-QUIC spec</a>,
+    which has become the basis for
+    <a href="https://quicwg.org/base-drafts/draft-ietf-quic-http.html">HTTP/3 at the IETF</a>.
+  </p>
+  {% include publication.html paper="quic_mapping_2016" %}
 
-<div class="work_pub">
-    <div class="work_pub_text">
-        <div class="work_pub_title">
-            Choosing Where To Go: Mobile Robot Exploration
-        </div>
-
-        <div class="work_pub_authors">
-            <span class="me">Robbie Shade</span>
-        </div>
-
-        <div class="horz_rule"></div>
-
-        <div class="work_pub_published">
-            D.Phil Thesis
-            <br/>
-            Oxford, August 2011
-        </div>
-
-        <div class="work_pub_download">
-            [ <a href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf">pdf</a> ]
-            [ <a href="/work/files/papers/bib/shade_dphil_thesis_2011.bib">BibTeX </a> ]
-        </div>
-    </div>
-
-    <div class="work_pub_thumb">
-        <a class="no_border"  href="/work/files/papers/pdf/shade_dphil_thesis_2011.pdf"><img class="shadow" src="/work/files/papers/img/shade_dphil_thesis_2011.png" /></a>
-    </div>
+  <p>
+    In 2014, I got the chance to talk about QUIC as part of the Google Developers Live series.
+  </p>
+  <div class="youtube shadow_box">
+    <iframe width="560" height="315" src="//www.youtube.com/embed/hQZ-0mXFmk8" frameborder="0" allowfullscreen></iframe>
+  </div>
 </div>
 
+<div class="post">
+  <h1>
+    Mobile Robotics Group, Oxford University
+    <small>Oxford, England | 2007 to 2012</small>
+  </h1>
+  <p>
+    In 2012 I successfully defended my DPhil (PhD). I was a member of the
+    <a href="https://www.robots.ox.ac.uk/~mobile/">Mobile Robotics Group</a>
+    at <a href="https://www.ox.ac.uk/">Oxford University</a>, under the supervision
+    of <a href="https://www.robots.ox.ac.uk/~pnewman">Prof. Paul Newman</a>.
+    My thesis focused on autonomous exploration, and developing novel approaches to
+    solving this problem for robots capable of three dimensional movement.
+    Most successfull is a method based on solving a partial differential
+    equation across a voxelised representation of the robot's workspace: choosing
+    suitable boundary conditions ensures complete exploration.
+  </p>
 
-<!-- ............. ICRA 2011 ................ -->
-
-<div class="work_pub">
-    <div class="work_pub_text">
-        <div class="work_pub_title">
-            Choosing Where To Go:<br/> Complete 3D Exploration with Stereo
-        </div>
-
-        <div class="work_pub_authors">
-            <span class="me">Robbie Shade</span> and Paul Newman
-        </div>
-
-        <div class="horz_rule"></div>
-
-        <div class="work_pub_published">
-            IEEE International Conference
-            on Robotics and Automation
-            <br/>
-            Shanghai, China, May 2011
-        </div>
-
-        <div class="work_pub_download">
-            [ <a href="/work/files/papers/pdf/shade_newman_icra2011_choosing.pdf">pdf</a> ]
-            [ <a href="/work/files/papers/bib/shade_newman_icra2011_choosing.bib">BibTeX </a> ]
-        </div>
-    </div>
-
-    <div class="work_pub_thumb">
-        <a class="no_border"  href="/work/files/papers/pdf/shade_newman_icra2011_choosing.pdf"><img class="shadow" src="/work/files/papers/img/shade_newman_icra2011_choosing.png" /></a>
-    </div>
-</div>
-
-
-<!-- ............. ICRA 2010 ................ -->
-
-<div class="work_pub">
-    <div class="work_pub_text">
-        <div class="work_pub_title">
-            Discovering and Mapping Complete Surfaces <br/>With Stereo
-        </div>
-
-        <div class="work_pub_authors">
-            <span class="me">Robbie Shade</span> and Paul Newman
-        </div>
-
-        <div class="horz_rule"></div>
-
-        <div class="work_pub_published">
-            IEEE International Conference on Robotics
-            and Automation
-            <br/>
-            Anchorage, Alaska, May 2010
-        </div>
-
-        <div class="work_pub_download">
-            [ <a href="/work/files/papers/pdf/shade_newman_icra2010_discovering.pdf">pdf</a> ]
-            [ <a href="/work/files/papers/bib/shade_newman_icra2010_discovering.bib">BibTeX </a> ]
-        </div>
-    </div>
-
-    <div class="work_pub_thumb">
-        <a class="no_border"  href="/work/files/papers/pdf/shade_newman_icra2010_discovering.pdf"><img class="shadow" src="/work/files/papers/img/shade_newman_icra2010_discovering.png" /></a>
-
-    </div>
-</div>
-
-
-<!-- ............. IJRR 2009 ................ -->
-
-<div class="work_pub">
-    <div class="work_pub_text">
-        <div class="work_pub_title">
-            Navigating, Recognising and Describing Urban Spaces
-            With Vision and Laser
-        </div>
-
-        <div class="work_pub_authors">
-            Paul Newman, Gabe Sibley, Mike Smith, Mark Cummins,
-            Alastair Harrison, Christopher Mei, Ingmar Posner,
-            <span class="me">Robbie Shade</span>, Derik Schröter,
-            Liz Murphy, Winston Churchill, Dave Cole and Ian Reid
-        </div>
-
-        <div class="horz_rule"></div>
-
-        <div class="work_pub_published">
-            The International Journal of Robotics Research
-            <br/>
-            28th October 2009
-        </div>
-
-        <div class="work_pub_download">
-            [ <a href="/work/files/papers/pdf/newman_et_al_ijrr2009_navigating.pdf">pdf</a> ]
-            [ <a href="/work/files/papers/bib/newman_et_al_ijrr2009_navigating.bib">BibTeX</a> ]
-        </div>
-    </div>
-
-    <div class="work_pub_thumb">
-        <a class="no_border" href="/work/files/papers/pdf/newman_et_al_ijrr2009_navigating.pdf"><img class="shadow" src="/work/files/papers/img/newman_et_al_ijrr2009_navigating.png" /></a>
-    </div>
-</div>
-
-
-<!-- .............2nd year poster................ -->
-
-<div class="center_full_no_border">
-<a href="/work/files/images/large/2ndYearPoster.png">
-<img class="img_shadow" src="/work/files/images/display/2ndYearPoster.png" alt="2nd year poster presentation" width="700" height="494" />
-</a>
-</div>
-
+  {% include publication.html paper="dphil_2011" %}
+  {% include publication.html paper="icra_2011" %}
+  {% include publication.html paper="icra_2010" %}
+  {% include publication.html paper="ijrr_2010" %}
 </div>

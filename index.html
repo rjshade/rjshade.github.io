@@ -3,42 +3,12 @@ layout: default
 title: home
 ---
 
-<script type="text/javascript">
-$(window).load(function() {
-  //  Initialize with a random subset of images. Don't want to load all.
-  var image_html = ""
-  var num_images = 5
-  var images = getRandomImages(num_images);
-  for (var i = 0; i < images.length; ++i) {
-    image_html += "<div><a href='/photos'>" + getImageHTML(images[i], '800px', '500px') + "</a></div>"
-  }
-
-  $('#fp-slideshow').append(image_html)
-  $("#fp-slideshow > div:gt(0)").hide();
-
-  setInterval(function() {
-    $('#fp-slideshow > div:first')
-      .fadeOut(1500)
-      .next()
-      .fadeIn(1500)
-      .end()
-      .appendTo('#fp-slideshow');
-  },  3000);
-});
-</script>
-
-<div id="frontpage">
-  <div id="fp-slideshow" class="slideshow">
-    <div>
-      <!-- In case JS disabled, still display one image. -->
-      <a href="/photos">
-        <img src ='/images/photos/monument_valley.jpg' width='800px' height='500px'
-             srcset='/images/photos/monument_valley.jpg 1x, /images/photos/retina/monument_valley.jpg 2x'/>
-      </a>
-    </div>
-  </div>
-
+<div class="post">
+  <div id="image"></div>
   <p>I'm Robbie Shade, and I <a href="/work">work at Verily</a>.</p>
-
-  <p>I'm interested in <a href="/2012/04/10/Philanthropy/">effective altruism</a>, and maximising the <a href="https://80000hours.org/">good I can do through my career</a>.</p>
+  <p>I take <a href="/photos">photos</a>, I'm interested in <a href="/2012/04/10/Philanthropy/">effective altruism</a>, and I want to maximize the <a href="https://80000hours.org/">good I can do through my career</a>.</p>
 </div>
+
+<script type="text/javascript">
+$(window).on("load", function() { $('#image').append("<a href='/photos'>" + getImageHTML(getRandomImage(), '800px', '500px') + "</a>") });
+</script>

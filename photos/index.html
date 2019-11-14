@@ -3,25 +3,25 @@ layout: default
 title: photos
 ---
 
-<script type="text/javascript">
-$(window).load(function() {
-  // 3 images at top, 9 below.
-  var images = getImages(12);
+<div class="post">
+  <p>I post photos to <a href="https://www.instagram.com/rjshade/">Instagram</a>
+     and <a href="https://www.flickr.com/photos/rjshade">Flickr</a>.</p>
+</div>
 
+<div class="post">
+  <div class="photo-grid" id="photo-grid"></div>
+</div>
+
+<script type="text/javascript">
+$(window).on("load", function() {
+  var images = getImages();
   var grid_html = ""
-  for (var i = 0; i < 12; ++i) {
+  for (var i = 0; i < images.length; ++i) {
     var image = images[i]
-    grid_html += "<li class='photo-grid-item'><a data-fancybox='gallery' href='/images/photos/original/" + image[1] + "'>" + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a></li>"
+    grid_html += "<a class='photo-grid-item' href='/images/photos/original/"
+                 + image[1] + "'>"
+                 + getImageHTML(image, '240px', '150px', 'thumbs/') + "</a>"
   }
   $('#photo-grid').append(grid_html)
 });
 </script>
-
-<div class="content_box">
-  <p>I post photos to <a href="https://www.instagram.com/rjshade/">Instagram</a>
-     and <a href="https://www.flickr.com/photos/rjshade">Flickr</a>.</p>
-
-  <p>Some of my photos are shown on the <a href="https://plus.google.com/+RobbieShade/posts/FMybtzS9SXi">Chromecast idle screen</a>.</p>
-</div>
-
-<ul class="photo-grid" id="photo-grid"></ul>
