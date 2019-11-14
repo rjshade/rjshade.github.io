@@ -25,7 +25,7 @@ $(window).on("load", function() {
   photo = images[Math.floor(Math.random() * images.length)]
   $('#fp-image').append(
       "<a href='/photos'>"
-    +   "<img alt='" + photo[0] + "' src='/images/photos/retina/" + photo[1] + "' />"
+    +   "<img alt='" + photo[0] + "' srcset='/images/photos/" + photo[1] + " 1x, /images/photos/retina/" + photo[1] + " 2x' src='/images/photos/" + photo[1] + "' />"
     + "</a>")
 });
 </script>
