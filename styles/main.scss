@@ -101,6 +101,7 @@ h2 {
 a {
   color: $blue;
   text-decoration: none;
+  transition: color .8s ease-in, color .5s ease-out;
   &:hover { color: $orange; }
 }
 
