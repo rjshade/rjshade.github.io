@@ -12,8 +12,9 @@ title: photos
 
 <div class="post">
   <div class="photo-grid" id="photo-grid">
-    {% for photo in site.data.photos %}
-      {% include photo.html photo=photo %}
-    {% endfor %}
+  {% assign portfolio_photos = site.photos | where: "portfolio", "true" %}
+  {% for photo in portfolio_photos %}
+    {% include photo_thumbnail.html photo=photo %}
+  {% endfor %}
   </div>
 </div>
