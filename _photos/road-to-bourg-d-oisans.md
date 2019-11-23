@@ -1,5 +1,5 @@
 ---
 title: "Road to Bourg d'Oisans"
-file: bourg-doisans.jpg
+file: bourg-d-oisans.jpg
 chromecast-archive: true
 ---

@@ -3,7 +3,7 @@ layout: default
 ---
 <div class="container">
   <figure class="photo">
-    <img srcset='/images/photos/{{ page.file }} 1x, /images/photos/retina/{{ page.file }} 2x'  alt='{{ page.title }}' />
+    <img srcset='/photos/files/{{ page.file }} 1x, /photos/files/retina/{{ page.file }} 2x'  alt='{{ page.title }}' />
     <figcaption>This photo was taken {% if page.exif.dateTaken %}on {{ page.exif.dateTaken | date: "%-d %B %Y" }}{% endif %} {% if page.exif.location.name %}in {{ page.exif.location.name }}{% endif %}</figcaption>
   </figure>
 

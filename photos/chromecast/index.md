@@ -24,7 +24,7 @@ These photos used to be displayed but I haven't seen them appear for a while:
 
 <div class="post">
   <div class="photo-grid" id="photo-grid">
-    {% assign chromecast_photos = site.photos | where: "chromecast", "true" %}
+    {% assign chromecast_photos = site.photos | where: "chromecast-archive", "true" %}
     {% for photo in chromecast_photos %}
       {% include photo_thumbnail.html photo=photo %}
     {% endfor %}

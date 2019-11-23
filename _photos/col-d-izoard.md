@@ -1,5 +1,5 @@
 ---
 title: "Col dIzoard"
-file: "col-dizoard.jpg"
+file: "col-d-izoard.jpg"
 chromecast-archive: true
 ---
