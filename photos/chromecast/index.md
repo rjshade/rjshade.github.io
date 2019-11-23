@@ -13,8 +13,9 @@ as of 2019:
 
 <div class="post">
   <div class="photo-grid" id="photo-grid">
-    {% for photo in site.data.chromecast-photos-2019 %}
-      {% include photo.html photo=photo %}
+    {% assign chromecast_photos = site.photos | where: "chromecast-2019", "true" %}
+    {% for photo in chromecast_photos %}
+      {% include photo_thumbnail.html photo=photo %}
     {% endfor %}
   </div>
 </div>
@@ -23,8 +24,9 @@ These photos used to be displayed but I haven't seen them appear for a while:
 
 <div class="post">
   <div class="photo-grid" id="photo-grid">
-    {% for photo in site.data.chromecast-photos-archive %}
-      {% include photo.html photo=photo %}
+    {% assign chromecast_photos = site.photos | where: "chromecast-archive", "true" %}
+    {% for photo in chromecast_photos %}
+      {% include photo_thumbnail.html photo=photo %}
     {% endfor %}
   </div>
 </div>

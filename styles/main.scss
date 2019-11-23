@@ -124,14 +124,7 @@ a {
   }
 }
 
-#fp-image {
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-.shadow_box {
+.shadow-box {
   box-shadow: 0px 0px 5px $light_grey;
   border: 1px solid $v_light_grey;
   border-radius: 5px;
@@ -196,6 +189,25 @@ a {
       margin: 0px;
       padding: 0px;
       width: 100%;
+    }
+  }
+}
+
+figure {
+  margin: 0px;
+}
+
+.large-photo {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  figcaption {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-top: 5px;
+    .date {
+      color: $light_grey;
     }
   }
 }

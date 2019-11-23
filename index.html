@@ -4,7 +4,7 @@ title: home
 ---
 
 <div class="post">
-  <div id="fp-image" class="shadow_box"></div>
+  <figure id="fp-image" class="large-photo shadow-box"></figure>
   <p>I'm Robbie Shade, and I <a href="/work">work at Verily</a>.</p>
   <p>
     I take <a href="/photos">photos</a>,
@@ -18,14 +18,15 @@ title: home
 // Cheeky little bit of JS + Jekyll/Liquid to load a random photo on load.
 $(window).on("load", function() {
   var images = [
-    {% for photo in site.data.photos %}
+    {% assign portfolio_photos = site.photos | where: "front-page", "true" %}
+    {% for photo in portfolio_photos %}
       ["{{ photo.title }}", "{{ photo.file }}"],
     {% endfor %}
   ]
   photo = images[Math.floor(Math.random() * images.length)]
   $('#fp-image').append(
       "<a href='/photos'>"
-    +   "<img alt='" + photo[0] + "' srcset='/images/photos/" + photo[1] + " 1x, /images/photos/retina/" + photo[1] + " 2x' src='/images/photos/" + photo[1] + "' />"
+    +   "<img alt='" + photo[0] + "' srcset='/photos/files/" + photo[1] + " 1x, /photos/files/retina/" + photo[1] + " 2x' src='/photos/files/" + photo[1] + "' />"
     + "</a>")
 });
 </script>
