@@ -3,9 +3,19 @@ layout: default
 ---
 <div class="container">
   <figure class="photo">
-    <img srcset='/photos/files/{{ page.file }} 1x, /photos/files/retina/{{ page.file }} 2x'  alt='{{ page.title }}' />
-    <figcaption>This photo was taken {% if page.exif.dateTaken %}on {{ page.exif.dateTaken | date: "%-d %B %Y" }}{% endif %} {% if page.exif.location.name %}in {{ page.exif.location.name }}{% endif %}</figcaption>
+    <img class="shadow_box"
+         srcset='/photos/files/{{ page.file }} 1x, /photos/files/retina/{{ page.file }} 2x'
+         alt='{{ page.title }}' />
+    <figcaption>
+      {{ page.title }}
+      {% if page.exif.location or page.exif.date %}
+      <span class="date">
+        {% if page.exif.location %}{{ page.exif.location }}{% endif %}
+        {% if page.exif.location and page.exif.date  %}|{% endif %}
+        {% if page.exif.date %}{{ page.exif.date | date: "%Y" }}{% endif %}
+      </span>
+      {% endif %}
+    </figcaption>
   </figure>
-
   {{ content }}
 </div>

@@ -18,7 +18,8 @@ title: home
 // Cheeky little bit of JS + Jekyll/Liquid to load a random photo on load.
 $(window).on("load", function() {
   var images = [
-    {% for photo in site.data.photos %}
+    {% assign portfolio_photos = site.photos | where: "front-page", "true" %}
+    {% for photo in portfolio_photos %}
       ["{{ photo.title }}", "{{ photo.file }}"],
     {% endfor %}
   ]
