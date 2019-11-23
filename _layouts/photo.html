@@ -2,9 +2,12 @@
 layout: default
 ---
 <figure class="large-photo">
-  <img class="shadow-box"
-       srcset='/photos/files/{{ page.file }} 1x, /photos/files/retina/{{ page.file }} 2x'
-       alt='{{ page.title }}' />
+  <a href="/photos/files/original/{{ page.file }}" data-lightbox="{{ page.title }}">
+    <img class="shadow-box test-m"
+         srcset='/photos/files/{{ page.file }} 1x, /photos/files/retina/{{ page.file }} 2x'
+         src='/photos/files{{ page.file }}'
+         alt='{{ page.title }}' />
+  </a>
   <figcaption>
     {{ page.title }}
     {% if page.exif.location or page.exif.date %}
@@ -15,4 +18,6 @@ layout: default
     {% endif %}
   </figcaption>
 </figure>
+
+
 {{ content }}

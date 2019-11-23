@@ -15,6 +15,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/normalize.css" />
     <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" title="User Defined Style" href="/styles/lightbox.css" />
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
@@ -52,15 +53,18 @@
     </div>
 
     <script>
-    // For toggling the navbar via hamburger menu.
-    function toggleMenu() {
-      var x = document.getElementById("siteMenu");
-      if (x.className === "") {
-        x.className = "responsive";
-      } else {
-        x.className = "";
+      // For toggling the navbar via hamburger menu.
+      function toggleMenu() {
+        var x = document.getElementById("siteMenu");
+        if (x.className === "") {
+          x.className = "responsive";
+        } else {
+          x.className = "";
+        }
       }
-    }
+    </script>
+    <script src="/js/lightbox.js">
+      // Lightbox for viewing photos.
     </script>
   </body>
 </html>
