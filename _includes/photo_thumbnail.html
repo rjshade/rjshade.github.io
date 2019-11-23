@@ -1,5 +1,5 @@
 {% assign photo = site.data.photos[include.photo] %}
 
 <a class='photo-grid-item' href='{{ photo.url }}'>
-  <img class="shadow_box" alt='{{ photo.title | escape }}' srcset='/images/photos/thumbs/{{ photo.file }} 1x, /images/photos/retina/thumbs/{{ photo.file }} 2x' src='/images/photos/thumbs/{{ photo.file }}' />
+  <img class="shadow_box" alt='{{ photo.title | escape }}' srcset='/photos/thumbs/{{ photo.file }} 1x, /photos/retina/thumbs/{{ photo.file }} 2x' src='/photos/thumbs/{{ photo.file }}' />
 </a>
