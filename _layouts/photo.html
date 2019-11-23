@@ -9,10 +9,9 @@ layout: default
     <figcaption>
       {{ page.title }}
       {% if page.exif.location or page.exif.date %}
+      <br/>
       <span class="date">
-        {% if page.exif.location %}{{ page.exif.location }}{% endif %}
-        {% if page.exif.location and page.exif.date  %}|{% endif %}
-        {% if page.exif.date %}{{ page.exif.date | date: "%Y" }}{% endif %}
+        {% if page.exif.location %}{{ page.exif.location }}{% endif %}{% if page.exif.location and page.exif.date %}, {% endif %}{% if page.exif.date %}{{ page.exif.date | date: "%Y" }}{% endif %}
       </span>
       {% endif %}
     </figcaption>
