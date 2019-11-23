@@ -124,14 +124,7 @@ a {
   }
 }
 
-#fp-image {
-  img {
-    width: 100%;
-    height: auto;
-  }
-}
-
-.shadow_box {
+.shadow-box {
   box-shadow: 0px 0px 5px $light_grey;
   border: 1px solid $v_light_grey;
   border-radius: 5px;
@@ -200,7 +193,11 @@ a {
   }
 }
 
-.photo {
+figure {
+  margin: 0px;
+}
+
+.large-photo {
   img {
     width: 100%;
     height: auto;
