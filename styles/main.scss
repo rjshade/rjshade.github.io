@@ -222,3 +222,18 @@ figure {
     }
   }
 }
+
+.creative-commons {
+  font-size: 0.8em;
+  color: $light_grey;
+  position: fixed;
+  bottom: 0;
+  text-align: right;
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  img {
+    width: 60px;
+    height: auto;
+  }
+}
