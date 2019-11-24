@@ -1,8 +1,8 @@
 ---
 title: "Franconia Ridge"
-file: franconia-ridge.jpg
-portfolio: true
 location: "New Hampshire"
 date: March 2019
+file: franconia-ridge.jpg
+portfolio: true
 instagram: BujuXs2gP5d
 ---

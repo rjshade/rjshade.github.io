@@ -1,5 +1,6 @@
 ---
-title: "Grand Teton"
+title: "Snake River and the Tetons"
+location: "Snake River Overlook"
 file: "grand-teton.jpg"
 portfolio: true
 front-page: true

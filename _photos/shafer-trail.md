@@ -1,5 +1,6 @@
 ---
-title: "Shafer Trail, Utah"
+title: "Shafer Trail"
+location: "Canyonlands National Park"
 file: "shafer-trail-utah.jpg"
 portfolio: true
 front-page: true
