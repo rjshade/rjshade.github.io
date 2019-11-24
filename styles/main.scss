@@ -237,3 +237,25 @@ figure {
     height: auto;
   }
 }
+
+.about {
+  img {
+    width: 20px;
+    height: auto;
+    padding-right: 5px;
+    filter: grayscale(100%);
+    transition: all .8s ease-in, all .5s ease-out;
+    &:hover {
+      filter: grayscale(0%);
+    }
+    vertical-align: middle;
+  }
+  ul {
+    list-style: none;
+    padding-left: 10px;
+    li {
+      padding-bottom: 10px;
+      vertical-align: middle;
+    }
+  }
+}
