@@ -1,5 +1,10 @@
 #!/bin/bash
 
+if [ "$#" -ne 1 ]; then
+  echo "Usage: $0 path/to/original.jpg"
+  exit 1
+fi
+
 INPUT=$1
 OUTPUT_DIR="./"
 OUTPUT_THUMBS="./thumbs"

@@ -1,9 +1,9 @@
 ---
 title: Mad River
+location: "New Hampshire"
 file: mad-river.jpg
 chromecast-2019: true
 portfolio: true
-exif:
-  date: 2015-09-15
-  location: "New Hampshire"
+flickr: 21530790039
+date: 2015-09-15
 ---

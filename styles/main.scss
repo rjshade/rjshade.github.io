@@ -111,6 +111,7 @@ a {
   text-align: center;
   .photo-grid-item {
     padding: 5px;
+    vertical-align: middle;
     img {
       width: 30%;
       height: auto;
@@ -203,11 +204,21 @@ figure {
     height: auto;
   }
   figcaption {
-    font-weight: bold;
     font-size: 1.2em;
     padding-top: 5px;
     .date {
       color: $light_grey;
+    }
+  }
+}
+
+.external-links {
+  float: right;
+  img {
+    filter: grayscale(100%);
+    transition: all .8s ease-in, all .5s ease-out;
+    &:hover {
+      filter: grayscale(0%);
     }
   }
 }
