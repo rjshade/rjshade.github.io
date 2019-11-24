@@ -211,3 +211,14 @@ figure {
     }
   }
 }
+
+.external-links {
+  float: right;
+  img {
+    filter: grayscale(100%);
+    transition: all .8s ease-in, all .5s ease-out;
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}

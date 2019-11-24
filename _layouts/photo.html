@@ -16,6 +16,19 @@ layout: default
       {% if page.exif.location %}{{ page.exif.location }}{% endif %}{% if page.exif.location and page.exif.date %}, {% endif %}{% if page.exif.date %}{{ page.exif.date | date: "%Y" }}{% endif %}
     </span>
     {% endif %}
+    <span class="external-links">
+    {% if page.instagram %}
+      <a href="https://www.instagram.com/p/{{ page.instagram }}/">
+        <img src="/images/instagram.png" style="width: 25px" />
+      </a>
+    {% endif %}
+    {% if page.flickr %}
+      <a href="https://www.flickr.com/photos/rjshade/{{ page.flickr }}/">
+        <img src="/images/flickr.jpg" style="width: 25px" />
+      </a>
+    {% endif %}
+    </span>
+
   </figcaption>
 </figure>
 
