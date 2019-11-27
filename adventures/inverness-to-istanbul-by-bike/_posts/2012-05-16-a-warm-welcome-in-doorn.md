@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: A warm welcome in Doorn
 location: 52.0346547,5.345672100000002
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/8a44/ef8b/9700/0300/0060/original/2012-05-16-utrecht.jpg?1337625178
+image: 2012-05-16-utrecht.jpg
 ---
 I spent a rainy morning drinking coffee and waiting for my bike's frayed gear cable to be replaced at one of Amsterdam's many bike shops. Job done, I left town and headed south towards Utrecht and to the village of Doorn where I was to stay with my friend Nienke's father Peter and his family.
 

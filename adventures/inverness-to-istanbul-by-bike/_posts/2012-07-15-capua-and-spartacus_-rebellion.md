@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Capua and Spartacus' rebellion
 location: 41.0723484,14.33113370000001
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/073a/17f4/ac00/0200/0023/original/7-15.jpg?1343293242
+image: 7-15.jpg
 ---
 The modern SS7 road follows the old Via Appia route fairly accurately as far as anyone can tell. It follows the coast from Terracina to Formia then heads inland and so do I. I reach Capua, the town where Spartacus led his fellow slaves to freedom and rebellion. Once defeated by the might of Rome, over 6000 of them were crucified along the Via Appia, spread evenly along the roadside over 200 km from Rome to Capua.
 

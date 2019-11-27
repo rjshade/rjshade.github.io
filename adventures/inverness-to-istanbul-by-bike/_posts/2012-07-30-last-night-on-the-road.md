@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Last night on the road
 location: 41.080158,28.26828999999998
-image: http://s3.amazonaws.com/wandershot/posts/images/503d/1840/f3c2/6800/0200/0064/original/2012-07-30-Silivri.jpg?1346181184
+image: 2012-07-30-Silivri.jpg
 ---
 The distance to Istanbul drops steadily with every minute on the bike - it's now so close that I could make it today if I really went for it. Up at 6am with the sun and more long rolling hills to the coast. As I follow the ring road around Takirdag I see a small figure in the distance slowly making its way up the next long hill. Fifteen minutes later and I catch up with Nigel and his heavily loaded touring bike. He's made it here from Plymouth after retiring and heading off to cycle round the world. I realise that he is the first cycle tourist I've met since maybe Rome and it's great to chat with him as we cycled together for the next few hours.
 

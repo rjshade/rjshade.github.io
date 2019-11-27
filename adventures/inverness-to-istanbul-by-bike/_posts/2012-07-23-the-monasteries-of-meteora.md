@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The monasteries of Meteora
 location: 39.8949802,22.189087200000017
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/0984/17f4/ac00/0200/0042/original/7-23.jpg?1343293828
+image: 7-23.jpg
 ---
 Meteora is an area of huge sandstone pillars rising out of the surrounding plains. On top of six of these are orthodox monasteries, perched improbably above hundreds of feet of vertical rock. The monasteries are now accessible by a combination of road, steep steps, and bridges. Originally the monks and nuns would access them via a series of rickety ladders, or by being winched up in nets. The access was deliberately difficult, a test of faith, the ropes suspending the nets were replaced only "when the Lord let them break".
 

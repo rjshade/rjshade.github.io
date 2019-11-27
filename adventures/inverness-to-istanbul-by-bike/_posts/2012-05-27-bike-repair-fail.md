@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Bike repair fail
 location: 48.5788725,7.816082100000017
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/81bf/3c2d/f000/0300/002f/original/2012-05-27.jpg?1338999231
+image: 2012-05-27.jpg
 ---
 My bike repair skills could do with some work. I spent a considerable amount of time on the banks of the Saar with my bike on its back, fiddling with barrel adjusters and cable tension, trying to encourage the rear derailleur to shift lower than the highest five gears. I somehow managed to make the situation worse, and had to face the ride to Strasbourg with only the top three gears.
 

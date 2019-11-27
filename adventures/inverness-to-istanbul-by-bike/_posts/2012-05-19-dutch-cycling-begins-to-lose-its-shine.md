@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Dutch cycling begins to lose its shine
 location: 50.8644444,5.831666700000028
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/a715/ef8b/9700/0300/00f6/original/2012-05-19-riverside.jpg?1337632533
+image: 2012-05-19-riverside.jpg
 ---
 There's no question that cycling in Holland offers a lot of benefits to the cyclist: an extensive signposted cycle network, huge stretches of purpose built cycle paths, and unrelentingly flat landscapes. This is all very much appreciated but it's almost too easy; you hardly need glance at a map to stay on track, and hundreds of kilometers roll by effortlessly.
 

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: My first proper Col
 location: 45.275403,6.344885999999974
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/2895/5395/e000/0300/0043/original/0620.jpg?1340811413
+image: 0620.jpg
 ---
 This is proper cycle climbing country now: a map in Albertville showed the climbs like ski runs, coloured according to difficulty, and I headed up a black run to the Col de la Madeleine. Every kilometre there are signs at the edge of the road telling you how far you still have to go, and the average gradient of the next kilometre. I really was poorly prepared for this, having eaten only a small breakfast and taking only one energy bar with me.
 

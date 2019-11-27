@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Eiger Nordwand
 location: 46.5872566,7.955154099999959
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/25ee/5395/e000/0300/0024/original/0612.jpg?1340810734
+image: 0612.jpg
 ---
 Finally a break in the weather! Up at 6am to get a glimpse of the mountains in the clear morning air, and the north face of the Eiger finally revealed itself. This face is not the biggest in the Alps, it's not the hardest, and it's not the most beautiful, but it has a fearsome reputation nonetheless. Part of its fame comes from the visibility of the face: tourists in sunny Kleine Scheidegg can view the face easily through telescopes and so attempts to reach the top were constantly under scrutiny by the public.
 

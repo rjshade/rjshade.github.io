@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The Lake District
 location: 54.43423,-3.0376730000000407
-image: http://s3.amazonaws.com/wandershot/posts/images/4fab/c3e6/0bd3/8900/0300/000f/original/IMG_9572.jpg?1336656870
+image: IMG_9572.jpg
 ---
 I was woken by the sound of a woodpecker busily drilling away at the tree above my tent. I wasn't in a huge rush to get up as it had dropped below freezing overnight and my sleeping bag was pretty warm. The morning sun took the edge off the cold around 7am and after startling some sheep by doing starjumps in their field to warm up, I headed into Carlisle for some breakfast.
 

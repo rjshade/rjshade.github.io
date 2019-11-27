@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Motorway cycling
 location: 40.6393495,22.944606399999998
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/09e8/17f4/ac00/0200/0047/original/7-24.jpg?1343293928
+image: 7-24.jpg
 ---
 I hadn't thought about it until now, but a quick calculation and I realised that I'd now been cycling for 10 days straight, and this would be the 11th without a rest day. I had a bed booked at a hostel in Thessaloniki for a few days, and I was looking forward to a couple of rest days more than ever before.
 

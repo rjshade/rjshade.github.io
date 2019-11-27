@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: A damp start
 location: 56.8030012,-4.0654994000000215
-image: http://s3.amazonaws.com/wandershot/posts/images/4fa2/d891/ed38/6300/0300/0010/original/IMG_9487.jpg?1336072337
+image: IMG_9487.jpg
 ---
 Waking up in a tent to the sound of heavy rain on the first day of a long cycle tour is pretty dispiriting. Not really sure what else I should have been expecting starting this in Scotland, but that didn't stop me from feeling a bit sorry for myself. Finally I persuaded myself to leave the tent and as always the rain turned out to be far less intense than it had sounded from the inside.
 

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Col d'Izoard
 location: 44.3863,6.650462999999945
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/29a5/5395/e000/0300/004f/original/0624.jpg?1340811685
+image: 0624.jpg
 ---
 Possibly the best day of cycling so far, absolutely glorious day! I left Briancon early and followed swarms of French, German, and Italian motorbikes up the Col d'Izoard. Like many of these Cols it begins with steady climbing through forests, but it's especially dry here with all the riverbeds empty, which would be a problem if I hadn't brought extra water with me. I reach the treeline quite suddenly and am now in a harsh desert like environment, the Casse Deserte. Strange rock pillars jut abruptly from scree slopes, carved into wonderful shapes by the wind and rain over the millenia. The road cuts its way through these slopes, leading to the stone monolith marking the summit of the Col.
 

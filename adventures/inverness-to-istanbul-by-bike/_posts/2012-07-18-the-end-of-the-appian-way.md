@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The end of the Appian Way
 location: 40.079972107391214,18.88077901874999
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/07ee/17f4/ac00/0200/002b/original/7-18.jpg?1343293422
+image: 7-18.jpg
 ---
 Today I head from Matera to the eastern coast, and I hope to catch a ferry from Brindisi to Greece. Some really rural roads now, passing olive trees growing in dark red earth, and strange houses with conical roofs around Martina Franca.
 I end up on the motorway as I approach Brindisi, but there's a wide hard shoulder and it seems safe enough.

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Cloud cover
 location: 46.6094371,7.915562099999988
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/24cb/5395/e000/0300/001c/original/0610.jpg?1340810443
+image: 0610.jpg
 ---
 I was here to see the mountains so another cloudy day wasn't ideal. At low levels it was clear though so I walked up to Wengen, perched high on the hillside above Lauterbrunnen. From here there are stunning views down the length of the valley; a glacial gorge comparable only to Yosemite. Yosemite doesn't have the Alps as a backdrop though, so the scale here from valley floor to the surrounding peaks is much greater.
 

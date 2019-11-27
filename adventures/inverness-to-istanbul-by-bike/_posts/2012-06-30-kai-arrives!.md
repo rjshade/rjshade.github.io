@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Kai arrives!
 location: 43.296482,5.369779999999992
-image: http://s3.amazonaws.com/wandershot/posts/images/5000/3308/e9e7/5500/0200/002e/original/6-30.jpg?1342190486
+image: 6-30.jpg
 ---
 Kai arrives in Marseilles for a few days! So good to see a friendly face again, especially when it's your wonderful girlfriend! She tells me I've lost weight which I use as an excuse to start eating more. Kai's US credit card reward scheme results in us getting a cheap deal in a hotel right on the harbour in Marseilles. It's bizarre staying in a hotel after almost 60 days of tent, bunkbeds in hostels, or couches in friend's houses.
 

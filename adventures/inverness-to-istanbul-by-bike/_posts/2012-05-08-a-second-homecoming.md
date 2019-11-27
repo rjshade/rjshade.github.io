@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: A second homecoming
 location: 51.751724,-1.255284999999958
-image: http://s3.amazonaws.com/wandershot/posts/images/4fab/cab7/0bd3/8900/0300/001f/original/IMG_9647.jpg?1336658615
+image: IMG_9647.jpg
 ---
 Blue skies, sunshine, and flatter roads as I headed south to Oxford. What a difference this makes to motivation and enjoyment! It also helped to know that Oxford, a city I'd lived in for 8 years, was waiting for me at the end of the day with friends, food, and a warm bed.
 

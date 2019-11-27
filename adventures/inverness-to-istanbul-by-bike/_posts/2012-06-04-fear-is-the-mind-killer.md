@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Fear is the mind-killer
 location: 47.3686498,8.539182500000038
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/842c/3c2d/f000/0300/0059/original/2012-06-04.jpg?1338999852
+image: 2012-06-04.jpg
 ---
 > I must not fear.<br>
 > Fear is the mind-killer.<br>
@@ -15,7 +15,7 @@ Fear that I'll get lost, fear that I'll get robbed, fear that I won't find somew
 
 Some of these are rational fears, others should just be ignored. How to overcome the fear is the hardest thing: I found that telling as many people as I could that I was definitely going to cycle to Istanbul, and then making it public with this blog, was a strong psychological motivator which helped get me out the house. Reminding myself that this is what I'd dreamed of doing for years, and thinking about the regrets I would have years down the line if I backed out now was even more compelling.
 
-The hardest step is the first step out the door. Once you get on the road the big fears fade away, replaced with more immediate concerns: where am I going to get water, what should I eat tonight, is that a good camping spot? If your bike breaks you will be able to find someone who can fix it, if your knee starts to hurt you can stop for a few days until it's better, no-one is going to stumble across your tent in the night because no-one else is daft enough to be out in the woods at 4am. Some of the fears are rational, but you take whatever precautions you can, and then jump into the adventure headfirst. [Alastair Humphreys](http://www.alastairhumphreys.com/) describes this as "pragmatic recklessness", and quotes Mallory:
+The hardest step is the first step out the door. Once you get on the road the big fears fade away, replaced with more immediate concerns: where am I going to get water, what should I eat tonight, is that a good camping spot
 
 > “The greatest danger in life is not to take the adventure.”
 > <small>George Mallory</small>

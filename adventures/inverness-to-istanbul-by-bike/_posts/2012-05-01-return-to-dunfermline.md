@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Return to Dunfermline
 location: 56.071741,-3.452150999999958
-image: http://s3.amazonaws.com/wandershot/posts/images/4fa2/dcd5/ed38/6300/0300/001e/original/IMG_20120501_204253_(1).jpg?1336073429
+image: IMG_20120501_204253_(1).jpg
 ---
 Sunnier this morning which made getting up and on the bike a lot more enjoyable. I followed the Sustrans National Cycle Routes through Pitlochry and then on to Perth. These are fantastic, well signposted and almost always on deserted or very quiet backroads. Often I'd cycle for 5 or 6 miles without seeing a car, and it's far more varied than bombing it down a major dual carriageway: quiet country roads, paths through housing estates, abandoned roads which have been re-purposed as cycle tracks, riverbank paths.
 

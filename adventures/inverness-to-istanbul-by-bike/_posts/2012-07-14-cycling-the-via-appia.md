@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Cycling the Via Appia
 location: 41.3362669,13.19710669999995
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/06e0/17f4/ac00/0200/001e/original/7-14.jpg?1343293152
+image: 7-14.jpg
 ---
 On the bike and following the Via Appia southwards to the coast at Terracina. Just a mile or two from the center of Rome there is a long stretch of the original road, the Appia Antica. The huge hexagonal flagstones which make up the surface of the road are impossible to cycle on with a road bike, but there is a dusty singletrack leading alongside most of it which I can deal with. This stretch of the road on the outskirts of Rome is lined with tombs and catacombs, prime real estate for the Roman dead.
 

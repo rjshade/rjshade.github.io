@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The Sassi di Matera
 location: 40.666379,16.604319900000064
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/07aa/17f4/ac00/0200/0029/original/7-17.jpg?1343293354
+image: 7-17.jpg
 ---
 As is usually the case when wild camping, I was up with the first rays of sunshine, and back on the road before 7. Just as well, in the next field along a farmer was already out in his tractor scooping up bales of hay and I would have been next! I dropped down from the ridgeline and then had to regain height for 10 or 15 km to the twin lakes, the Lagho di Monticchio - volcanic craters near the wooded peak of Monte Vulture.
 

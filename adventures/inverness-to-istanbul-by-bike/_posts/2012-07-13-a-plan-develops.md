@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: A plan develops
 location: 41.9015141,12.460773700000004
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/06ad/17f4/ac00/0200/001a/original/7-13.jpg?1343293101
+image: 7-13.jpg
 ---
 Another day off in Rome. I've come up with a plan now for crossing Italy: I'm going to roughly follow the route of the Via Appia, the ancient Roman road which linked Rome and the port of Brindisi in the east. This was a hugely important highway, used as a military supply route and allowing Roman legions to march to the port at Brindisi in just ten days.
 

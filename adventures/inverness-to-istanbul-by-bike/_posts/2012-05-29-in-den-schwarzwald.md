@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: In den Schwarzwald
 location: 48.3619148,8.412597699999992
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/826d/3c2d/f000/0300/0039/original/2012-05-29.jpg?1338999405
+image: 2012-05-29.jpg
 ---
 I was up and in Strasbourg in time for first orders at the bike shop. It turned out that there was a nasty kink in the gear cable that was the cause of my problems, and that short of carrying spare cables and housing there wasn't much I could have done to fix it myself. I was slightly concerned that this is the result of my expertly fitted handlebar bag (a camera bag, attached with string and cable ties) pushing outwards on the cable. I made some adjustments by adding another couple of cable ties, and got out of town.
 

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Dehydration in the hills
 location: 39.66502880000001,20.853746600000022
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/0917/17f4/ac00/0200/003b/original/7-21.jpg?1343293719
+image: 7-21.jpg
 ---
 My new found confidence didn't take into account the heat of mainland Greece. It's oppressive and humiliating, I struggle up mild inclines, drenched in sweat as soon as I leave a patch of shade, the road ahead shimmering in the haze as mirages appear and fade. It's almost 40 degrees today and no wind to speak of.
 

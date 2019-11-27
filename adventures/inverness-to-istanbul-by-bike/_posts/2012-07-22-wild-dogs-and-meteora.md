@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Wild dogs and Meteora
 location: 39.7164807,21.61831189999998
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/094f/17f4/ac00/0200/003d/original/7-22.jpg?1343293775
+image: 7-22.jpg
 ---
 Feeling much better today after a great night's sleep. After breakfast of bread and local honey, I head back into the heat, punishingly hot even at 9am. The road starts to climb right out of Ionina, rising above the huge lake overlooking the town. A sign tells me that the Katara Pass is open. What it doesn't mention is that the pass is 60 km away, and it's uphill all the way!
 

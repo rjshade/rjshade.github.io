@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The Olympic route to the capital
 location: 51.527928,-0.18362600000000384
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/8217/ef8b/9700/0300/0032/original/2012-05-12-london.jpg?1337623063
+image: 2012-05-12-london.jpg
 ---
 The day began well with Maggie making a delicious (and importantly large!) cooked breakfast. Roxy wasn't forgotten and she got her fair share of bacon scraps and toast edges. We then took her for a walk in the local woods, although to be more accurate we walked and she ran almost constantly for an hour and a half. Tired out, we returned home and planned my route into London over coffee.
 

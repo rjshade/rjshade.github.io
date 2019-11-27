@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Exploring Thessaloniki
 location: 40.6393495,22.944606399999998
-image: http://s3.amazonaws.com/wandershot/posts/images/503d/147d/f3c2/6800/0200/0056/original/2012-07-26-Thessaloniki.jpg?1346180221
+image: 2012-07-26-Thessaloniki.jpg
 ---
 Another day camped out in the hostel. I was initially planning on hitting the road today, but my legs disagreed with this decision. The hostel is in Thessaloniki's old town which is on the steep hillside northeast of the sea. This means that having a look around town (which I feel I really should do at some point) involves a 30 minute downhill walk - it's the return uphill slog that's been putting me off so far. The local dogs are even less impressed with the heat - every parked car has a dog or two lying underneath trying to cool down a bit.
 

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Climbing envy
 location: 54.060737,-2.150951999999961
-image: http://s3.amazonaws.com/wandershot/posts/images/4fab/c735/0bd3/8900/0300/0014/original/IMG_9624.jpg?1336657717
+image: IMG_9624.jpg
 ---
 The road out of the Lakes took me through Windermere and through Kendal where I obviously indulged in some mint cake. I headed east from Kendal along the southern edge of the Yorkshire Dales and into Giggleswick and Settle. These are cute little towns nestled at the foot of the hills, and there were some lovely views of cottages with smoking chimneys, with a backdrop of green fields criss-crossed by a network of dry-stone walls.
 

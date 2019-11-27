@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The hills of the Belgian Ardennes
 location: 50.304934,5.780096299999968
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/8069/3c2d/f000/0300/0020/original/2012-05-22.jpg?1338998889
+image: 2012-05-22.jpg
 ---
 A foggy morning obscured the transition from the Netherlands to Belgium. The hills began soon after crossing the border, but gently at first. After a week of Dutch cycling I had to remind myself that I had the option of changing to lower gears now and again.
 

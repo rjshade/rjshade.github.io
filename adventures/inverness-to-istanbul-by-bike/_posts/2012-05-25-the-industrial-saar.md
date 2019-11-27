@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The industrial Saar
 location: 49.24015720000001,6.996932700000002
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/8137/3c2d/f000/0300/0029/original/2012-05-25.jpg?1338999095
+image: 2012-05-25.jpg
 ---
 I climbed steeply out of the Mosel valley and reached the industrial river Saar a few hours later. I followed the cycle path along the river past factories and metal works, until the town of Saarbrucken, where I was going to stay at the youth hostel.
 

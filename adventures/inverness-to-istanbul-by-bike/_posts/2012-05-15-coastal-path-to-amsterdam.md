@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Coastal path to Amsterdam
 location: 52.3702157,4.895167899999933
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/88e2/ef8b/9700/0300/0059/original/2012-05-15-amsterdam.jpg?1337624802
+image: 2012-05-15-amsterdam.jpg
 ---
 I thought that the national cycle network in the UK was pretty good until I rolled off the ferry at the Hook of Holland. The Dutch take cycling seriously: pretty much every road has a dedicated cycling lane, traffic lights have a smaller set of lights just for bikes (complete with a button on a post at cyclist height), and at many junctions and roundabouts cars actually have to give way to cyclists! It's glorious.
 

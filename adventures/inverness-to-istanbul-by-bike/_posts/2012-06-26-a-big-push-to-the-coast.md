@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: A big push to the coast
 location: 43.696036,7.26559199999997
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/2a36/5395/e000/0300/0055/original/0626.jpg?1340811830
+image: 0626.jpg
 ---
 > "It never gets easier, you just go faster"
 > <small>Greg Lemond</small>

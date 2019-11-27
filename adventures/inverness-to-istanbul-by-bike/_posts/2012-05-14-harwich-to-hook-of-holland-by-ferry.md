@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Harwich to Hook of Holland by ferry
 location: 51.92118153096535,2.6320430632324587
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/85d0/ef8b/9700/0300/0053/original/2012-05-14-harwich.jpg?1337624070
+image: 2012-05-14-harwich.jpg
 ---
 A long, cold, grey, and wet day from the centre of London to the ferry port at Harwich. I followed the Regent's Canal for a while before turning north and heading past the Olympic site at Stratford, and on past the north east London marshlands. I strayed off national cycle route 1 (which actually continues all the way up to the north of Scotland - I was on it for a bit near Inverness) and this turned out to be a mistake. The industrial A roads weren't much fun in the rain and I was relieved to get past the M25 and into the countryside.
 

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Petrol station camping in Turkey
 location: 40.8742032,26.983475699999985
-image: http://s3.amazonaws.com/wandershot/posts/images/503d/1589/f3c2/6800/0200/005f/original/2012-07-29-Turkey.jpg?1346180489
+image: 2012-07-29-Turkey.jpg
 ---
 The wind picked up as I approached Turkey, a strong headwind trying to keep me in Greece. This meant that the last 30 km to the border took much longer than I expected and I was not looking forward to a lengthy border crossing. It turned out to be pretty straightforward, and the most interesting border crossing of the trip (continental European borders are now little more than a sign, and maybe some dilapidated abandoned customs buildings if you're lucky).
 

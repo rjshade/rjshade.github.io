@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Planning by the Maas
 location: 50.8513682,5.6909725000000435
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/aba5/ef8b/9700/0300/0107/original/2012-05-21-maastricht.jpg?1337633701
+image: 2012-05-21-maastricht.jpg
 ---
 I took a rest day and stayed in the Maastricht youth hostel Stayokay. It's right on the Maas and has a bar with a balcony overlooking the river. I spent the afternoon sitting in the sun and planning my route through the Belgian Ardennes, Luxembourg,  Germany, to Zürich.
 

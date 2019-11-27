@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Historic Maastricht
 location: 50.8513682,5.6909725000000435
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/a9f2/ef8b/9700/0300/0102/original/2012-05-20-maastricht.jpg?1337633266
+image: 2012-05-20-maastricht.jpg
 ---
 Maastricht lies right at the southernmost point of the Netherlands at the end of the thin peninsula which is surrounded on three sides by Belgium and Germany. The wide river Maas flows through the middle of this ancient town, which has had people living here since before the Romans arrived in the first century A.D.
 

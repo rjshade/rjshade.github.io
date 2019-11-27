@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Calanques
 location: 43.215134,5.537119999999959
-image: http://s3.amazonaws.com/wandershot/posts/images/5000/33c3/e9e7/5500/0200/0041/original/7-1.jpg?1342190531
+image: 7-1.jpg
 ---
 We make the most of the buffet breakfast at the hotel - I'm still in cycling mode so I eat a vast amount. A short drive down the coast and we arrive in Cassis. We walk along the coast to see the Calanques; rocky inlets with clear blue water and sandy beaches. The Calanque d'En-Vau takes a while to reach, with a scrambly descent into a deep gorge. Worth it though as it's very pretty and we went for a swim in the surprisingly cold sea.
 

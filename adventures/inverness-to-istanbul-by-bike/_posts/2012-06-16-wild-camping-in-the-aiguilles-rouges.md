@@ -1,10 +1,10 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Wild camping in the Aiguilles Rouges
 location: 45.9666667,6.866666699999996
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/2725/5395/e000/0300/0030/original/0616.jpg?1340811045
+image: 0616.jpg
 ---
-Up at 6am for the long haul from Zermatt to Chamonix. I'd kind of forgotten I was in a deep valley and so the sunshine I was expecting was only illuminating the high peaks around me. In the darkness I set off down the hill. In the Rhone valley the sun hit me and I spent the morning travelling along the long and flat valley floor past vineyards (Swiss wine?) and orchards. The valley turns to the north at Martigny, but I was continuing westwards over the huge hills now directly in front of me.
+Up at 6am for the long haul from Zermatt to Chamonix. I'd kind of forgotten I was in a deep valley and so the sunshine I was expecting was only illuminating the high peaks around me. In the darkness I set off down the hill. In the Rhone valley the sun hit me and I spent the morning travelling along the long and flat valley floor past vineyards (Swiss wine
 
 The Rue de Forclaz manages to find its way upwards through the vineyards, and into the forests above the town. This is a south facing mountainside and the sun's heat was pretty intense. I could feel waves of heat pulsing outwards from the stone walls of the road, and the sweat poured off me. I was passed by another cyclist who gave some words of encouragement and then disappeared into the distance. At a section of switchbacks somewhere near the top of the climb I found him again, standing underneath a waterfall just off the road. This looked like a great idea so I joined him, and braved the icy snow-melt to get some refreshment.
 

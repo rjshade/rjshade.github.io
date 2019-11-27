@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: The road to the East
 location: 39.5061499,20.265533900000037
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/0893/17f4/ac00/0200/0032/original/7-20.jpg?1343293587
+image: 7-20.jpg
 ---
 I retrace my route from the day before, back through the little villages and olive groves of Corfu. The ground underneath the olive trees is covered with black netting. I asked Aleko about this and he told me that the nets are there to catch the olives which fall from the trees when ripe. The trees are a bit too tall to be easily harvestable by hand, and this way they can just bundle up the fresh olives every few days.
 

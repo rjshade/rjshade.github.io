@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Rural Campania
 location: 40.9741352,15.412761700000033
-image: http://s3.amazonaws.com/wandershot/posts/images/5011/077d/17f4/ac00/0200/0025/original/7-16.jpg?1343293309
+image: 7-16.jpg
 ---
 It's a 50 km ride from Caserta to Benevento, along which I discover that my rear gear cable is on the way out again. With some twiddling I postpone the inevitable lack of shifting, but am pleased to reach Benevento and the Gilardi bike shop. I turn up just as they are about to close for lunch and they have as much English as I do Italian (i.e. none). Not too hard to communicate the problem through mimeing and gestures, and the mechanic gets to work. Hoists my bike into a bike stand, bags and all, and within three minutes has stripped the old cable and housings, installed a new set, and tuned the shifting mechanism.
 

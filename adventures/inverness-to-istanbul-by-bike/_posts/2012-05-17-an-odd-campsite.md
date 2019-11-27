@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: An odd campsite
 location: 51.56554569999999,5.462012700000059
-image: http://s3.amazonaws.com/wandershot/posts/images/4fba/8ba5/ef8b/9700/0300/0098/original/2012-05-17-riverlands.jpg?1337625509
+image: 2012-05-17-riverlands.jpg
 ---
 The tree lined canals soon gave way to the expansive fields and waterways of the river lands south of Utrecht. They cycle paths here ran along the top of great raised soil barriers which are presumably part of the country's array of flood defences. The rivers here have few bridges, and most crossings are done by ferry which cost a Euro or two. These ferries spend their days gliding back and forth between shorelines which in some cases are only 20m apart.
 

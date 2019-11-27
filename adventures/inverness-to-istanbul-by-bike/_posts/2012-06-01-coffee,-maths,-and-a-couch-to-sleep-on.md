@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Coffee, maths, and a couch to sleep on
 location: 47.3686498,8.539182500000038
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/837d/3c2d/f000/0300/0044/original/2012-06-01.jpg?1338999677
+image: 2012-06-01.jpg
 ---
 I hadn't realised just how close to Zurich I had camped, until I set off in the morning and by 9.30am I had reached the lakeside in the center of the city. My phone was dead and so I headed to that international beacon of free wifi and power sockets: Starbucks. I needed to get in touch with my friends Kay and Mia, whose flat I would be staying at for the next few days. I figured I could send an email, and nurse a coffee quietly until my phone was charged and plans were arranged.
 

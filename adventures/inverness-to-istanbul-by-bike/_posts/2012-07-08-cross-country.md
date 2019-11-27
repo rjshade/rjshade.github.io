@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Cross country
 location: 41.47992259999999,8.998230400000011
-image: http://s3.amazonaws.com/wandershot/posts/images/5000/35b9/e9e7/5500/0200/006f/original/7-8.jpg?1342191033
+image: 7-8.jpg
 ---
 A long day heading cross country towards Bonifacio. Rather than following the winding coastal road any further I figured that I could save some time by following the main road for a bit. Bad idea really as it resulted in over 6000 feet of climbing in the sweltering sunshine, no coastal breezes here! Black seed pods were bursting from the heat, a staccato popping which took me a while to identify.
 

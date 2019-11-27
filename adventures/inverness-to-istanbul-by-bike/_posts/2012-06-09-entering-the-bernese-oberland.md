@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Entering the Bernese Oberland
 location: 46.59552,7.907349999999951
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/243d/5395/e000/0300/0017/original/0609.jpg?1340810301
+image: 0609.jpg
 ---
 The road to Lauterbrunnen gains height steadily as it climbs the valley from Interlaken. At Zweilutschinen the valley splits in two, as do the trains: one half turning left to Grindelwald, while I follow the other heading straight on up the steep sided gorge to Lauterbrunnen.
 

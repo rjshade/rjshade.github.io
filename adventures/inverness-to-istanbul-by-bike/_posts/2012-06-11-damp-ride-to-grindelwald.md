@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Damp ride to Grindelwald
 location: 46.6248928,8.030958599999963
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/2566/5395/e000/0300/0020/original/0611.jpg?1340810598
+image: 0611.jpg
 ---
 > "The next time you're planning a trip... picturing snowcapped peaks under perfect blue skies, you would do well to keep in mind whence that glorious snowpack came"
 > <small>Jon Krakauer, On Being Tentbound</small>

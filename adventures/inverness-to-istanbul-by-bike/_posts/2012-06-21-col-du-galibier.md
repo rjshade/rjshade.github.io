@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Col du Galibier
 location: 45.051951,6.0300640000000385
-image: http://s3.amazonaws.com/wandershot/posts/images/4feb/28ca/5395/e000/0300/0046/original/0621.jpg?1340811466
+image: 0621.jpg
 ---
 I was quickly boiled out of my tent as the sun appeared over the hills. Today was a real test: the long climb from St Michel to the Col du Telegraphe and then onwards over the Col du Galibier at 2645m in height.
 

@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Planning ahead
 location: 49.24015720000001,6.996932700000002
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/8163/3c2d/f000/0300/002c/original/2012-05-26.jpg?1338999139
+image: 2012-05-26.jpg
 ---
 I spent a quiet day resting my legs after the hills of the Ardennes and Luxembourg. I bought a map covering the border region south of Saarbrucken, the Schwarzwald, and Zurich. In a week's time I planned to be in Zurich and so I took some time to plan a route through the black forest.
 

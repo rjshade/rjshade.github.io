@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: A long, dark, and damp day
 location: 52.95477,-1.1580860000000257
-image: http://s3.amazonaws.com/wandershot/posts/images/4fab/c8b7/0bd3/8900/0300/001a/original/IMG_9584.jpg?1336658103
+image: IMG_9584.jpg
 ---
 I'd given myself two days to get from Malham to Oxford, so today was the first half of a tough 220 mile cycle.
 

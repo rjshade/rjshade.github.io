@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: inverness-to-istanbul-by-bike
 title: Four countries in a day
 location: 49.4718221,6.366348300000027
-image: http://s3.amazonaws.com/wandershot/posts/images/4fcf/80fe/3c2d/f000/0300/0026/original/2012-05-24.jpg?1338999038
+image: 2012-05-24.jpg
 ---
 I stocked up on provisions at a handy farmers' market in Arlon before heading towards Luxembourg, and the possibility of four countries in one day.
 
