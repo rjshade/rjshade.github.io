@@ -1,0 +1,13 @@
+---
+layout: inverness-to-istanbul-by-bike
+title: The Sassi di Matera
+location: 40.666379,16.604319900000064
+image: 7-17.jpg
+---
+As is usually the case when wild camping, I was up with the first rays of sunshine, and back on the road before 7. Just as well, in the next field along a farmer was already out in his tractor scooping up bales of hay and I would have been next! I dropped down from the ridgeline and then had to regain height for 10 or 15 km to the twin lakes, the Lagho di Monticchio - volcanic craters near the wooded peak of Monte Vulture.
+
+I had a bit of breakfast in Rionero - a healthy packet of biscuits and a bottle of Coke! Not ideal but the tiny, cramped shop I found had limited options. Probably would have tried to find something more substantial if I'd known I wouldn't eat again until Matera, 130 km away.
+
+In the leafy centre of Venosa I stopped at one of the many water fountains to rehydrate and plan my route for the rest of the day. After Palazzo San Gervasio it looked like the most direct route would be the SS655 but this looked big, fast, and dangerous from my map. However when I reached it (planning on crossing it and continuing east), it was completely deserted. Looked like construction had ended just where I joined it - to the north there was a flattened stretch of ground which continued where the road ended and I guess they just ran out of money to complete it. I was heading in the other direction though where it looked fully built so I rolled down the access ramp and headed south. A great decision - the road had almost no traffic (maybe a car every 15 minutes or so), but was perfectly surfaced and I comfortably made 30 - 40 km/h for a couple of hours to Matera.
+
+Matera is initially disappointing: it's meant to be a UNESCO world heritage site but as you approach it's just miles of high rise apartment blocks up steep hills. Nothing to get excited about. Suddenly though, after turning down a small side road, an amazing view over the beautiful old town opened up. This is the Sassi di Matera (the stones of Matera), where the houses are carved directly out of the rock of the hillside. These cavelike dwellings have been inhabited continuously since paleolithic times, maybe for 10,000 years. There are outstanding views over the city from many balconies and pathways, and it's especially stunning at night when the old town is lit up with the cathedral high on the hill above.

@@ -1,0 +1,49 @@
+---
+layout: default
+---
+
+<a class="up" href="/adventures/inverness-to-istanbul-by-bike">&uarr; all posts</a>
+
+<h1>{{ page.title }}</h1>
+
+
+<figure class="large-photo">
+  <a href="/adventures/inverness-to-istanbul-by-bike/photos/{{ page.image }}" data-lightbox="{{ page.title }}">
+    <img class="shadow-box test-m"
+         src='/adventures/inverness-to-istanbul-by-bike/photos/{{ page.image }}'
+         alt='{{ page.title }}' />
+  </a>
+</figure>
+
+{{ content }}
+
+<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="200px" id="gmap_canvas" src="https://maps.google.com/maps?q={{ page.location }}&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:200px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:100%;}</style></div>
+
+{% if page.categories %}
+  {% assign category = page.categories[0] %}
+  {% assign posts = site.categories[category] %}
+  {% for post in posts %}
+    {% if post.url == page.url %}
+      {% assign post_index0 = forloop.index0 %}
+      {% assign post_index1 = forloop.index %}
+    {% endif %}
+  {% endfor %}
+  {% for post in posts %}
+    {% if post_index0 == forloop.index %}
+      {% assign next_post = post %}
+    {% endif %}
+    {% if post_index1 == forloop.index0 %}
+      {% assign prev_post = post %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<div class="post-nav">
+  {% if prev_post %}
+    <a class="prev" href="{{prev_post.url}}">&laquo; {{prev_post.title}}</a>
+  {% endif %}
+  {% if next_post %}
+    <a class="next" href="{{next_post.url}}">{{next_post.title}} &raquo;</a>
+  {% endif %}
+</div>
+

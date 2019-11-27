@@ -1,0 +1,17 @@
+---
+layout: inverness-to-istanbul-by-bike
+title: Motorway cycling
+location: 40.6393495,22.944606399999998
+image: 7-24.jpg
+---
+I hadn't thought about it until now, but a quick calculation and I realised that I'd now been cycling for 10 days straight, and this would be the 11th without a rest day. I had a bed booked at a hostel in Thessaloniki for a few days, and I was looking forward to a couple of rest days more than ever before.
+
+Thessaloniki is 140 km from Elassona, and in between is the huge mass of Mount Olympus. This mythical mountain, the home of the Greek gods, is the tallest in Greece at 2917 m but fortunately I wasn't heading that high. I followed a road which went over the northwest shoulder of the mountain to Katerini near the coast. The very top was covered by clouds as I passed, but it was still an impressive sight, dwarfing everything surrounding it.
+
+Every few hundred yards on the road to Katerini there would be a grassy layby filled with what looked like sturdy filining cabinets, painted in a range of bright colours, and secured with padlocks. After a mile or two I couldn't contain my curiosity any longer so I pulled over at the next set of boxes and had a closer look. They turned out to be beehives, each box had narrow slits near the top which had a constant stream of bees heading in and out.
+
+In Katerini I followed signs to Thessaloniki, still a fair distance away. I was guided onto a road which quickly became a three lane motorway. Not sure whether I was legally allowed to cycle along it, I figured I'd give it a shot as my map showed it as the only sensible route to Thessaloniki - sticking to minor roads would require a 25 mile detour inland. The motorway had a generously wide hard shoulder, wider than the lanes themselves, and so I felt safe even as trucks barreled by at 120 km/h.
+
+About halfway along the road I realised that there was a highway patrol vehicle following me on the hard shoulder. As we approached an exit it beeped its horn at me a couple of times, presumably indicating I should turn off. He'd have to try harder than that though, I accelerated past the off ramp and he followed close behind. If he really wanted me to leave he could overtake and pull me over. For the next 10 km he followed me, still not making himself very clear. I got a bid fed up with it and pulled off the main road the next chance I got. He didn't follow, instead he stopped on the hard shoulder of the motorway and watched me. I got my map out and pretended to be looking for an alternate route, which seemed to make him happy and he drove off. As soon as he was out of sight I rolled straight back onto the motorway and continued on my way to Thessaloniki.
+
+The next indication that I maybe wasn't meant to be cycling on the motorway happened when I arrived at a set of toll booths. I cycled straight past a long line of cars and approached the man at the toll booth. I said hello and asked in English if I needed to pay, and if so how much. He replied with a burst of angry Greek, shaking his head and gesticulating at an official looking building at the side of the road. Once again I decided to push my luck and I nipped round the barrier and once more cycled off up the hard shoulder. I nervously glanced backwards pretty frequently for the next few km, expecting flashing blue lights to catch me at any moment. Nothing appeared though, and after a while I began to think that maybe I'd misinterpreted the toll booth man and he'd been really trying to say "Good luck on your cycle old chap, this toll is on me!".
