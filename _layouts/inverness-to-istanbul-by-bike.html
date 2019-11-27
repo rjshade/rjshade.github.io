@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<figure class="large-photo">
+  <a href="/photos/files/original/{{ page.image }}" data-lightbox="{{ page.title }}">
+    <img class="shadow-box test-m"
+         srcset='/photos/files/{{ page.image }} 1x, /photos/files/retina/{{ page.image }} 2x'
+         src='/photos/files{{ page.image }}'
+         alt='{{ page.title }}' />
+  </a>
+</figure>
+
+<h1>{{ page.title }}</h1>
+<h2>{{ page.location }}</h2>
+{{ content }}
