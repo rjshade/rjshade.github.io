@@ -8,9 +8,10 @@ $orange: #f08c26;
 $blue: #3d85aa;
 $phone_width: 600px;
 
-html,body {
-  font-family: 'Open Sans', 'Helvetica', sans-serif;
-  background-color:#ffffff;
+html,
+body {
+  font-family: "Open Sans", "Helvetica", sans-serif;
+  background-color: #ffffff;
   font-size: 12px;
   line-height: 1.7em;
   color: $dark_grey;
@@ -40,18 +41,27 @@ nav {
     text-decoration: none;
   }
 
-  a.logo { color: $dark_grey; font-size: 1.2em; font-weight: bold; }
-  .icon { display: none; }
+  a.logo {
+    color: $dark_grey;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .icon {
+    display: none;
+  }
   border-bottom: 1px solid $v_light_grey;
 }
 
 @media screen and (max-width: $phone_width) {
-  nav a:not(:first-child) {display: none;}
+  nav a:not(:first-child) {
+    display: none;
+  }
   nav a.icon {
     float: right;
     display: block;
   }
-  nav.responsive {position: fixed;
+  nav.responsive {
+    position: fixed;
     width: 80%;
     max-width: 80%;
   }
@@ -86,11 +96,17 @@ h1 {
     color: $light_grey;
     display: block;
   }
+  .right {
+    float: right;
+    display: block;
+    font-size: 0.8em;
+    font-weight: normal;
+  }
 }
 
 h2 {
   font-weight: bold;
-  font-size: 1.0em;
+  font-size: 1em;
   small {
     font-weight: normal;
     color: $light_grey;
@@ -101,8 +117,10 @@ h2 {
 a {
   color: $blue;
   text-decoration: none;
-  transition: color .8s ease-in, color .5s ease-out;
-  &:hover { color: $orange; }
+  transition: color 0.8s ease-in, color 0.5s ease-out;
+  &:hover {
+    color: $orange;
+  }
 }
 
 .photo-grid {
@@ -131,30 +149,30 @@ a {
   border-radius: 5px;
 }
 
-.youtube{
+.youtube {
   z-index: 0;
-  overflow:hidden;
-  padding-bottom:56.25%;
-  position:relative;
-  display:block;
-  margin:auto;
-  height:0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  display: block;
+  margin: auto;
+  height: 0;
   max-width: 80%;
   margin-top: 20px;
   margin-bottom: 20px;
-  iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
+  iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
   }
 }
 
 .work_pub {
   overflow: auto;
   margin: 10px;
-  margin-bottom:30px;
+  margin-bottom: 30px;
   padding: 10px;
 
   .text {
@@ -173,7 +191,7 @@ a {
     float: left;
     clear: left;
     width: 30%;
-    padding:5px;
+    padding: 5px;
     margin-top: 15px;
     margin-left: 10px;
   }
@@ -216,7 +234,7 @@ figure {
   float: right;
   img {
     filter: grayscale(100%);
-    transition: all .8s ease-in, all .5s ease-out;
+    transition: all 0.8s ease-in, all 0.5s ease-out;
     &:hover {
       filter: grayscale(0%);
     }
@@ -243,7 +261,7 @@ figure {
     filter: grayscale(0%);
   }
   a img {
-    transition: all .8s ease-in, all .5s ease-out;
+    transition: all 0.8s ease-in, all 0.5s ease-out;
     filter: grayscale(100%);
   }
   img {
@@ -263,6 +281,8 @@ figure {
 }
 
 .post-nav {
+  padding-top: 10px;
+  height: 30px;
   .prev {
     float: left;
   }
@@ -271,3 +291,17 @@ figure {
   }
 }
 
+.gmap {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  position: relative;
+  text-align: right;
+  height: 200px;
+  width: 100%;
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 200px;
+    width: 100%;
+  }
+}

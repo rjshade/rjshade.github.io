@@ -2,22 +2,38 @@
 layout: default
 ---
 
-<a class="up" href="/adventures/inverness-to-istanbul-by-bike">&uarr; all posts</a>
-
-<h1>{{ page.title }}</h1>
-
+<h1>{{ page.title }}<span class="right">
+  <a class="up" href="/adventures/inverness-to-istanbul-by-bike">&uarr; all posts</a></span></h1>
 
 <figure class="large-photo">
-  <a href="/adventures/inverness-to-istanbul-by-bike/photos/{{ page.image }}" data-lightbox="{{ page.title }}">
-    <img class="shadow-box test-m"
-         src='/adventures/inverness-to-istanbul-by-bike/photos/{{ page.image }}'
-         alt='{{ page.title }}' />
+  <a
+    href="/adventures/inverness-to-istanbul-by-bike/photos/{{ page.image }}"
+    data-lightbox="{{ page.title }}"
+  >
+    <img
+      class="shadow-box test-m"
+      src="/adventures/inverness-to-istanbul-by-bike/photos/{{ page.image }}"
+      alt="{{ page.title }}"
+    />
   </a>
 </figure>
 
 {{ content }}
 
-<div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="200px" id="gmap_canvas" src="https://maps.google.com/maps?q={{ page.location }}&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div><style>.mapouter{position:relative;text-align:right;height:200px;width:100%;}.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:100%;}</style></div>
+<div class="gmap">
+  <div class="gmap_canvas">
+    <iframe
+      width="100%"
+      height="200px"
+      id="gmap_canvas"
+      src="https://maps.google.com/maps?q={{ page.location }}&t=&z=9&ie=UTF8&iwloc=&output=embed"
+      frameborder="0"
+      scrolling="no"
+      marginheight="0"
+      marginwidth="0"
+    ></iframe>
+  </div>
+</div>
 
 {% if page.categories %}
   {% assign category = page.categories[0] %}
@@ -46,4 +62,3 @@ layout: default
     <a class="next" href="{{next_post.url}}">{{next_post.title}} &raquo;</a>
   {% endif %}
 </div>
-
