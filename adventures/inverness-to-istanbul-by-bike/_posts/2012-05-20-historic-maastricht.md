@@ -4,7 +4,7 @@ title: Historic Maastricht
 location: 50.8513682,5.6909725000000435
 image: 2012-05-20-maastricht.jpg
 ---
-Maastricht lies right at the southernmost point of the Netherlands at the end of the thin peninsula which is surrounded on three sides by Belgium and Germany. The wide river Maas flows through the middle of this ancient town, which has had people living here since before the Romans arrived in the first century A.D.
+aastricht lies right at the southernmost point of the Netherlands at the end of the thin peninsula which is surrounded on three sides by Belgium and Germany. The wide river Maas flows through the middle of this ancient town, which has had people living here since before the Romans arrived in the first century A.D.
 
 It's a city that rewards walking and exploring and Roman remains are to be found scattered throughout the winding cobbled network of streets: parts of the old city wall have been preserved well, as has part of the original bridge over the Mass.
 

@@ -4,7 +4,7 @@ title: Dehydration in the hills
 location: 39.66502880000001,20.853746600000022
 image: 7-21.jpg
 ---
-My new found confidence didn't take into account the heat of mainland Greece. It's oppressive and humiliating, I struggle up mild inclines, drenched in sweat as soon as I leave a patch of shade, the road ahead shimmering in the haze as mirages appear and fade. It's almost 40 degrees today and no wind to speak of.
+y new found confidence didn't take into account the heat of mainland Greece. It's oppressive and humiliating, I struggle up mild inclines, drenched in sweat as soon as I leave a patch of shade, the road ahead shimmering in the haze as mirages appear and fade. It's almost 40 degrees today and no wind to speak of.
 
 A good rule of thumb in endurance events is to drink a litre of water every hour of exercise, but I've only got three litres with me and it takes almost six hours to climb from the coast to Ioanina. By the time I arrive my mouth is parched and I have a pounding headache. Wild camping in this state is not an attractive option so I find a cheap B&B in which I can recover.
 
